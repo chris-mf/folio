@@ -1,0 +1,325 @@
+/* Text styles */
+
+
+h1 {
+  font-size: 100px;
+  line-height: 110px;
+  line-break: auto;
+  font-family: 'gt_americablack';
+  font-weight: normal;
+  font-style: normal;
+  color:#042082;
+  padding-bottom: 2%;
+  /* margin-block-start: 0px; 
+  margin-block-end: 8%; */
+}
+
+.foliodescription {
+color:#65719B;
+font-size: 1.2rem;
+line-height: 1.5rem;
+font-family: 'gt_americaregular';
+margin-top: 5%;
+margin-block-end: .1rem;
+}
+
+.foliodescription span {
+  color:#042082;
+}
+
+
+
+.subhead{
+  font-size: 1.5rem;
+  font-family: 'gt_americabold';
+  color:#042082;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+
+.headertext{
+  color:#042082;
+  font-family: 'gt_americaregular';
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+}
+
+header .nolinelink {
+  margin-left: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'gt_americabold';
+  color:#042082;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'gt_americabold';
+  color:#042082;
+  margin-block-start: 1em;
+  margin-block-end: .2em;
+}
+
+body {
+  background-color: #FEFAF6;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box
+}
+
+body {
+  color:#042082;
+  font-family: 'gt_americaregular';
+  font-size: 1rem
+}
+
+p {  color: 042082;
+  font-size: 1.5rem;
+  font-family: 'gt_americaregular';
+  color: #042082;
+  line-height: 2.6rem;
+  margin-block-start: .5em;
+  margin-block-end: .5em;
+}
+
+#contact-section a {
+  margin-right: 5%;
+
+}
+
+
+
+/* Link styles */
+
+a {
+  font-size: 1.5rem;
+  font-family: 'gt_americaregular';
+  color:#042082;
+  line-height: 2.6rem;
+}
+
+a:link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  border-color:  #828CB1;
+  padding-bottom: 3px;
+}
+
+/* visited link */
+a:visited {
+  color:#042082;
+  border-color:  #CECDD2;
+}
+
+a:hover {
+  border-color:#042082;
+  
+}
+
+
+
+a.NoLineLink {
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-bottom: 3px;
+  color: #828CB1;
+}
+
+
+a.NoLineLink:link {
+  text-decoration: none;
+  padding-bottom: 3px;
+  color: #828CB1;
+  border-bottom: none;
+}
+
+a.NoLineLink:hover {
+  color:#042082;
+  transition: color 0.2s ease-in-out 0s;
+}
+
+
+a.subhead{
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a.subhead:link{
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a.subhead:hover{
+  color: #828CB1;
+}
+ 
+
+a.headertext {
+  border-bottom: none;
+}
+
+
+
+/* Section styles */
+
+header {
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 15%;
+  font-family: 'gt_americaregular';
+}
+
+.paragraphSection {
+  margin-bottom: 6%;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0px auto;
+    padding-left: 5%;
+    padding-right: 5%; 
+}
+
+.work{
+  margin-bottom: 8%;
+}
+
+.wordsAndSpeaking {
+  margin-top: 8%;
+}
+
+.big-text {
+  max-width: 1000px;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+}
+
+.imgsection{
+  margin-right: 40px;
+}
+
+
+.paragraph {
+  max-width: 750px;
+}
+
+footer {
+  display:block;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  font-family: 'gt_americaregular';
+}
+
+.photo {
+   transition: all .3s ease-in-out;
+}
+
+.photo:hover {
+  transform: scale(1.02);
+}
+
+
+
+/*  Media Query  */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 800px) {
+  h1 {font-size: 45px;line-height: 60px; padding-bottom: 5%;}
+.flex-container {flex-wrap: wrap;}
+
+/* header a {
+  display:none;
+} */
+
+.photo {
+  max-width: 100%;
+  height: auto;
+} 
+
+.imgsection {
+  margin-bottom: 8%;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 100%;
+  margin: 0px auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+p {  
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+header .nolinelink {
+  display: none;
+}
+
+header {
+  margin-top: 12%;
+}
+
+}
+
+
+/* Webfonts */
+
+@font-face {
+    font-family: 'gt_americablack';
+    src: url('./webfonts/gt-america-black-webfont.woff2') format('woff2'),
+         url('./webfonts/gt-america-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gt_americabold';
+    src: url('./webfonts/gt-america-bold-webfont.woff2') format('woff2'),
+         url('./webfonts/gt-america-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gt_americalight';
+    src: url('./webfonts/gt-america-light-webfont.woff2') format('woff2'),
+         url('./webfonts/gt-america-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gt_americaregular_italic';
+    src: url('./webfonts/gt-america-regular-italic-webfont.woff2') format('woff2'),
+         url('./webfonts/sgt-america-regular-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gt_americaregular';
+    src: url('./webfonts/gt-america-regular-webfont.woff2') format('woff2'),
+         url('./webfonts/gt-america-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
