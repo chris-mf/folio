@@ -124,7 +124,6 @@ a:hover {
 }
 
 
-
 a.NoLineLink {
   font-size: 1.5rem;
   text-decoration: none;
@@ -146,24 +145,41 @@ a.NoLineLink:hover {
 }
 
 
-a.subhead{
+.subhead{
   text-decoration: none;
   border-bottom: none;
 }
 
-a.subhead:link{
+.subhead:link{
   text-decoration: none;
   border-bottom: none;
 }
 
-a.subhead:hover{
+/* .subhead:hover{
   color: #828CB1;
-}
+} */
  
 
 a.headertext {
   border-bottom: none;
 }
+
+.project-link:hover .imgsection > .photo {
+  transform: scale(1.02);
+}
+
+.project-link:hover .imgsection > .subhead{
+  color: #828CB1;
+}
+
+a.project-link {
+  border: none;
+}
+
+a.project-link:visited {
+  border: none
+}
+
 
 
 
@@ -226,17 +242,21 @@ footer {
 .photo {
    transition: all .3s ease-in-out;
 }
-
+/* 
 .photo:hover {
   transform: scale(1.02);
-}
+} */
 
 
 
 /*  Media Query  */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 800px) {
+@media (max-width: 600px) {
+  h1 {font-size: 70px;line-height: 60px; padding-bottom: 5%;}
+}
+
+@media (max-width: 800px) {
   h1 {font-size: 45px;line-height: 60px; padding-bottom: 5%;}
 .flex-container {flex-wrap: wrap;}
 
