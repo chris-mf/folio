@@ -179,13 +179,13 @@ a.headertext {
   position: relative;
 }
 
-.overlay {
+/* .overlay {
   position: absolute;
   height: 100%;
   width: 100%;  
   opacity: 0;
   background-color: aliceblue;
-}
+} */
 
 .project-link:hover .imgsection > .overlay {
   opacity: 1;
