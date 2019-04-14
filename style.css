@@ -119,9 +119,10 @@ a:visited {
 }
 
 a:hover {
-  border-color:#042082;
-  
-  
+  border-color: #CECDD2;
+  text-decoration: line-through;
+  border-bottom: none; 
+  color: #CECDD2;
 }
 
 
@@ -165,20 +166,37 @@ a.headertext {
   border-bottom: none;
 }
 
+.photo {
+  transition: all .2s ease-in-out;
+  /* background-color: #008CBA;
+  opacity: 0; */
+ 
+}
+
+
+
 .project-link:hover .imgsection > .photo {
   transform: scale(1.02);
+  text-decoration: none;
 }
+
+/* .project-link:hover .imgsection > .colour-overlay{
+  opacity: 1;
+} */
 
 .project-link:hover .imgsection > .subhead{
   color: #828CB1;
+  text-decoration: none;
 }
 
 a.project-link {
   border: none;
+  text-decoration: none;
 }
 
 a.project-link:visited {
   border: none
+  text-decoration: none;
 }
 
 
@@ -222,6 +240,11 @@ header {
 .flex-container {
   display: flex;
   width: 100%;
+  /* flex-wrap: wrap; */
+}
+
+.second-case-study{
+  margin: 50%;
 }
 
 .imgsection{
@@ -240,10 +263,7 @@ footer {
   font-family: 'gt_americaregular';
 }
 
-.photo {
-   transition: all .3s ease-in-out;
-  
-}
+
 
 
 /* 
