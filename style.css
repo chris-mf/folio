@@ -69,6 +69,10 @@ body {
   margin:0;
 }
 
+/* .pagebackground {
+  background-color: #FEF4F1;
+} */
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
