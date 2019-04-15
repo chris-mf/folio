@@ -178,8 +178,8 @@ a.headertext {
   position: relative;
   width: 682px;
   height: 500px;
-  background-color: red;
-  mix-blend-mode: multiply;
+  /* background-color: red;
+  mix-blend-mode: multiply; */
 }
 
 .project-link {
