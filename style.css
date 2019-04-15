@@ -196,7 +196,7 @@ a.headertext {
 
 .project-link:hover .imgsection > .photo {
   text-decoration: none;
-  -webkit-filter: sepia(5) hue-rotate(70deg);
+  -webkit-filter: grayscale(1) hue-rotate(50deg);
 }
 
 
@@ -212,7 +212,7 @@ a.project-link {
 }
 
 a.project-link:visited {
-  border: none
+  border: none;
   text-decoration: none;
 }
 
@@ -236,10 +236,10 @@ header {
 
 .wrapper{
     width: 100%;
-    max-width: 1240px;
+    max-width: 1440px;
     margin: 0px auto;
-    padding-left: 2%;
-    padding-right: 2%; 
+    padding-left: 5%;
+    padding-right: 5%; 
 }
 
 .work{
