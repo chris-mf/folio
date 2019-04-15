@@ -176,13 +176,20 @@ a.headertext {
 .photo {
   transition: all .2s ease-in-out;
   position: relative;
-
+  width: 682px;
+  height: 500px;
 }
 
 .project-link {
   position: relative;
+  margin-right: auto;
+
 }
 
+.project-link:nth-child(2n) {
+  margin-left: auto;
+  margin-right: 0;  
+}
 
 
 
@@ -231,8 +238,8 @@ header {
     width: 100%;
     max-width: 1240px;
     margin: 0px auto;
-    padding-left: 5%;
-    padding-right: 5%; 
+    padding-left: 2%;
+    padding-right: 2%; 
 }
 
 .work{
@@ -250,7 +257,7 @@ header {
 .flex-container {
   display: flex;
   width: 100%;
-  /* flex-wrap: wrap; */
+  flex-direction: column;
 }
 
 .second-case-study{
@@ -277,10 +284,6 @@ footer {
 
 
 
-/* 
-.photo:hover {
-  transform: scale(1.02);
-} */
 
 
 
