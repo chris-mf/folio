@@ -178,11 +178,21 @@ a.headertext {
   position: relative;
   width: 682px;
   height: 500px;
+  background-color: red;
+  mix-blend-mode: multiply;
 }
 
 .project-link {
   position: relative;
   margin-right: auto;
+
+}
+
+/* .imgsection{
+  background-color: red;
+} */
+
+.imgsection:hover{
 
 }
 
@@ -192,11 +202,15 @@ a.headertext {
 }
 
 
+/* .project-link:hover .imgsection > .photo {
+  text-decoration: none;
+  -webkit-filter:  hue-rotate(20deg);
+} */
 
 
 .project-link:hover .imgsection > .photo {
   text-decoration: none;
-  -webkit-filter: grayscale(1) hue-rotate(50deg);
+  opacity: 0.8;
 }
 
 
