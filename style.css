@@ -183,13 +183,6 @@ a.headertext {
   position: relative;
 }
 
-/* .overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;  
-  opacity: 0;
-  background-color: aliceblue;
-} */
 
 
 
@@ -199,9 +192,7 @@ a.headertext {
   -webkit-filter: sepia(5) hue-rotate(70deg);
 }
 
-/* .project-link:hover .imgsection > .colour-overlay{
-  opacity: 1;
-} */
+
 
 .project-link:hover .imgsection > .subhead{
   color: #828CB1;
