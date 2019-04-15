@@ -191,15 +191,12 @@ a.headertext {
   background-color: aliceblue;
 } */
 
-.project-link:hover .imgsection > .overlay {
-  opacity: 1;
-}
+
 
 
 .project-link:hover .imgsection > .photo {
-  transform: scale(1.02);
   text-decoration: none;
-  background-color: aqua
+  -webkit-filter: sepia(5) hue-rotate(70deg);
 }
 
 /* .project-link:hover .imgsection > .colour-overlay{
