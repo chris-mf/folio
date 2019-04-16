@@ -187,14 +187,6 @@ a.headertext {
 
 }
 
-/* .imgsection{
-  background-color: red;
-} */
-
-.imgsection:hover{
-
-}
-
 .project-link:nth-child(2n) {
   margin-left: auto;
   margin-right: 0;  
@@ -311,9 +303,6 @@ footer {
   h1 {font-size: 45px;line-height: 60px; padding-bottom: 5%;}
 .flex-container {flex-wrap: wrap;}
 
-/* header a {
-  display:none;
-} */
 
 .photo {
   max-width: 100%;
@@ -347,71 +336,52 @@ header {
 
 }
 
-@media all and (max-width: 1024px) { 
 
-} 
-@media all and (max-width: 839px) {
-  .photo {
-    max-width: 100%;
-    height: auto;
-  } 
-  
-  .imgsection {
-    margin-bottom: 8%;
-  }
-  
-  .wrapper{
-    width: 100%;
-    max-width: 100%;
-    margin: 0px auto;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  
-  p {  
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-  }
-  
-  header .nolinelink {
-    display: none;
-  }
-  
-  header {
-    margin-top: 12%;
-  }
-} 
-@media all and (max-width: 480px) {
-  .photo {
-    max-width: 100%;
-    height: auto;
-  } 
-  
-  .imgsection {
-    margin-bottom: 8%;
-  }
-  
-  .wrapper{
-    width: 100%;
-    max-width: 100%;
-    margin: 0px auto;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  
-  p {  
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-  }
-  
-  header .nolinelink {
-    display: none;
-  }
-  
-  header {
-    margin-top: 12%;
-  }
- }
+@media only screen 
+    and (device-width : 375px) 
+    and (device-width: 320px)
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+      .flex-container {flex-wrap: wrap;}
+
+      h1 {font-size: 45px;line-height: 60px; padding-bottom: 5%;}
+      .flex-container {flex-wrap: wrap;}
+
+
+      .photo {
+        max-width: 100%;
+        height: auto;
+      } 
+      
+      .imgsection {
+        margin-bottom: 8%;
+      }
+      
+      .wrapper{
+        width: 100%;
+        max-width: 100%;
+        margin: 0px auto;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      
+      p {  
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+      }
+      
+      header .nolinelink {
+        display: none;
+      }
+      
+      header {
+        margin-top: 12%;
+      }
+      
+
+     }
+
+
 
 
 /* Webfonts */
