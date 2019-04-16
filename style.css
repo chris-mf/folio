@@ -10,6 +10,8 @@ h1 {
   font-style: normal;
   color:#042082;
   padding-bottom: 2%;
+  text-rendering:optimizeLegibility;
+  -webkit-font-feature-settings: "kern" 1;
   /* margin-block-start: 0px; 
   margin-block-end: 8%; */
 }
@@ -53,6 +55,8 @@ h2 {
   font-size: 2rem;
   font-family: 'gt_americabold';
   color:#042082;
+  text-rendering:optimizeLegibility;
+  -webkit-font-feature-settings: "kern" 1;
 }
 
 h3 {
@@ -61,6 +65,8 @@ h3 {
   color:#042082;
   margin-block-start: 1em;
   margin-block-end: .2em;
+  text-rendering:optimizeLegibility;
+  -webkit-font-feature-settings: "kern" 1;
 }
 
 body {
