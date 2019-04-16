@@ -347,6 +347,72 @@ header {
 
 }
 
+@media all and (max-width: 1024px) { 
+
+} 
+@media all and (max-width: 839px) {
+  .photo {
+    max-width: 100%;
+    height: auto;
+  } 
+  
+  .imgsection {
+    margin-bottom: 8%;
+  }
+  
+  .wrapper{
+    width: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  p {  
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+  
+  header .nolinelink {
+    display: none;
+  }
+  
+  header {
+    margin-top: 12%;
+  }
+} 
+@media all and (max-width: 480px) {
+  .photo {
+    max-width: 100%;
+    height: auto;
+  } 
+  
+  .imgsection {
+    margin-bottom: 8%;
+  }
+  
+  .wrapper{
+    width: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  p {  
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+  
+  header .nolinelink {
+    display: none;
+  }
+  
+  header {
+    margin-top: 12%;
+  }
+ }
+
 
 /* Webfonts */
 
@@ -394,3 +460,4 @@ header {
     font-style: normal;
 
 }
+
