@@ -1,0 +1,109 @@
+.indicator {
+  background: red;
+  color: white;
+  display: block;
+  font-size: 9px;
+  font-weight: 900;
+  line-height: 10px;
+  height: 11px;
+  margin-right: 10px;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 40px;
+  z-index: 9999;
+}
+.indicator:after {
+  content: "Mobile";
+}
+@media only screen and (min-width: 540px) {
+  .indicator {
+    background: orange;
+  }
+  .indicator:after {
+    content: "Phablet";
+  }
+}  
+@media only screen and (min-width: 768px) {
+  .indicator {
+    background: green;
+  }
+  .indicator:after {
+    content: "Tablet";
+  }
+}  
+@media only screen and (min-width: 1025px) {
+  .indicator {
+    background: blue;
+  }
+  .indicator:after {
+    content: "Laptop";
+  }
+}
+@media only screen and (min-width: 1281px) {
+  .indicator {
+    background: purple;
+  }
+  .indicator:after {
+    content: "Desktop";
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .indicator {
+    background: silver;
+  }
+  .indicator:after {
+    content: "Cinema";
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.content {
+  margin: 0 auto 200px auto;
+  padding: 0 10px;
+  width: 100%;
+  max-width: 1280px;
+}
+@media only screen and (min-width: 768px) {
+  .content {
+    padding: 0 30px;
+  }
+}
+.headline {
+  background-color: orangered;
+  box-sizing: border-box;
+  padding-left: 10%;
+  width: 100%;
+}
+h1 {
+  font-size: 10vw;
+  margin: 0;
+  padding: 0;
+}
+h1 span {
+  display: block;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 768px) {
+  section {
+    flex-direction: row;
+  }
+}
+figure {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+figure img {
+  width: 100%;
+}
