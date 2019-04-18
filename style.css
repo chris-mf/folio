@@ -2,8 +2,8 @@
 
 
 h1 {
-  font-size: 100px;
-  line-height: 110px;
+  font-size: 7vw;
+  line-height: 1.1;
   line-break: auto;
   font-family: 'gt_americablack';
   font-weight: normal;
@@ -283,10 +283,13 @@ header {
 }
 
 .imgsection{
-  margin-right: 40px;
   position: relative;
 }
-
+@media (max-width: 600px) {
+  .imgsection{
+    margin-right: 40px;
+  }
+}
 
 .paragraph {
   max-width: 750px;
