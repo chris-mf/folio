@@ -19,21 +19,21 @@ h1 {
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   h1 {
-    background-color: purple;
+    /* background-color: purpleq; */
     font-size: 9vw;
   }
 }
 /* Tablet */
 @media (min-width: 321px) and (max-width: 768px) {
   h1 {
-    background-color: blue;
+    /* background-color: blue; */
     font-size: 9vw;
   }
 }
 /* Mobile */
 @media (max-width: 320px) {
   h1 {
-    background-color: green;
+    /* background-color: green; */
     font-size: 9vw;
   }
 }
