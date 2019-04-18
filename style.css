@@ -2,7 +2,8 @@
 
 
 h1 {
-  font-size: 7vw;
+  background-color: red;
+  font-size: 9vw;
   line-height: 1.1;
   line-break: auto;
   font-family: 'gt_americablack';
@@ -12,8 +13,29 @@ h1 {
   padding-bottom: 2%;
   text-rendering:optimizeLegibility;
   -webkit-font-feature-settings: "kern" 1;
+  white-space: nowrap;
   /* margin-block-start: 0px; 
   margin-block-end: 8%; */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  h1 {
+    background-color: purple;
+    font-size: 9vw;
+  }
+}
+/* Tablet */
+@media (min-width: 321px) and (max-width: 768px) {
+  h1 {
+    background-color: blue;
+    font-size: 9vw;
+  }
+}
+/* Mobile */
+@media (max-width: 320px) {
+  h1 {
+    background-color: green;
+    font-size: 9vw;
+  }
 }
 
 .foliodescription {
@@ -271,6 +293,9 @@ header {
 .big-text {
   max-width: 1000px;
 }
+.big-text span {
+  display: block;
+}
 
 .flex-container {
   display: flex;
@@ -309,11 +334,11 @@ footer {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width: 600px) {
-  h1 {font-size: 70px;line-height: 60px; padding-bottom: 5%;}
+  /* h1 {font-size: 70px;line-height: 60px; padding-bottom: 5%;} */
 }
 
 @media (max-width: 800px) {
-  h1 {font-size: 45px;line-height: 60px; padding-bottom: 5%;}
+  /* h1 {font-size: 45px;line-height: 60px; padding-bottom: 5%;} */
 .flex-container {flex-wrap: wrap;}
 
 
