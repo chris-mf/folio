@@ -1,6 +1,7 @@
 /* Text styles */
 
 
+
 h1 {
   /* background-color: red; */
   font-size: 9vw;
@@ -42,12 +43,12 @@ h1 {
   }
 
   header .nolinelink {
-    display: none;
+    display: none; 
   }
   
-
-
 }
+
+
 /* Mobile */
 @media (max-width: 320px) {
   h1 {
@@ -191,7 +192,7 @@ a:link {
   font-size: 1.5rem;
   text-decoration: none;
   border-bottom: 2px solid;
-  border-color:  #042082;
+  border-color:  #FEFAF6;
 }
 
 /* visited link */
