@@ -397,7 +397,16 @@ html {
     margin-bottom: 8%;
   }
 
-  header .a{
+  .header-wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 8%;
+  }
+
+  header a.NoLineLink:link{
     display: none;
   }
 
@@ -432,16 +441,24 @@ html {
     margin-top: 12%;
   }
 
+footer {
+  margin-bottom: 15%;
+}
+
 }
 
 /* --- Mobile --- */
 @media (max-width: 320px) {
   h1 {
     /* background-color: green; */
-    font-size: 9vw;
+    font-size: 10vw;
   }
 
-  header .Nolinelink:link {
+.header-wrapper {
+  padding-left: 5%;
+}
+
+  header a.NoLineLink:link{
     display: none;
   }
 
@@ -453,19 +470,21 @@ a.nonlinelink2 {
   display: none;
 }
 
-header a.nolinelink{
-  display: none;
+.paragraphSection {
+  padding-bottom: 2rem;
 }
 
-  header .a{
-    display: none;
-  }
+ footer {
+   padding-bottom: 20%;
+ }
 
-
-
+ .subhead {
+   font-size: 1.2rem
+ }
 
   header {
-    margin-top: 12%;
+    margin-top: 15%;
+    padding-top: 5%;
 
   }
 
