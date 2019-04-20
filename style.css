@@ -13,7 +13,7 @@
 
 h1 {
   /* background-color: red; */
-  font-size: 7vw;
+  font-size: 8vw;
   line-height: 1.1;
   line-break: auto;
   font-family: 'Inter';
@@ -277,7 +277,7 @@ header {
   margin: 0px auto;
   padding-left: 4%;
   padding-right: 4%;
-  margin-top: 6%;
+  margin-top: 3%;
 }
 
 
@@ -399,7 +399,7 @@ html {
     margin: 0px auto;
     padding-left: 5%;
     padding-right: 5%;
-    margin-top: 8%;
+    margin-top: 5%;
   }
 
   header a.NoLineLink:link{
