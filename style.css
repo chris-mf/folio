@@ -271,6 +271,14 @@ header {
   padding-right: 8%;
 }
 
+.header-wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 5%;
+}
 
 
 .work {
@@ -453,9 +461,7 @@ header a.nolinelink{
     display: none;
   }
 
-.header-wrapper .nolinelink {
-  display: none;
-}
+
 
 
   header {
