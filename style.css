@@ -13,7 +13,7 @@
 
 h1 {
   /* background-color: red; */
-  font-size: 8vw;
+  font-size: 7vw;
   line-height: 1.1;
   line-break: auto;
   font-family: 'Inter';
@@ -267,17 +267,17 @@ header {
   width: 100%;
   max-width: 1440px;
   margin: 0px auto;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 .header-wrapper {
   width: 100%;
   max-width: 1440px;
   margin: 0px auto;
-  padding-left: 3%;
-  padding-right: 3%;
-  margin-top: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-top: 6%;
 }
 
 
@@ -309,6 +309,7 @@ header {
 
 .imgsection {
   position: relative;
+  margin-bottom: 12%;
 }
 
 
@@ -318,7 +319,7 @@ header {
 
 footer {
   display: block;
-  margin-top: 15%;
+  margin-top: 20%;
   margin-bottom: 5%;
   font-family: 'inter';
 }
