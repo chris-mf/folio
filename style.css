@@ -311,11 +311,6 @@ header {
   position: relative;
 }
 
-@media (max-width: 600px) {
-  .imgsection {
-    margin-right: 40px;
-  }
-}
 
 .paragraph {
   max-width: 760px;
@@ -394,7 +389,7 @@ html {
 
   .wordsAndSpeaking {
     margin-top: 8%;
-    margin-bottom: 8%;
+    margin-bottom: 20%;
   }
 
   .header-wrapper {
@@ -445,6 +440,11 @@ footer {
   margin-bottom: 15%;
 }
 
+.paragraphSection {
+  padding-bottom: 2rem;
+  margin-bottom: 12%;
+}
+
 }
 
 /* --- Mobile --- */
@@ -472,6 +472,7 @@ a.nonlinelink2 {
 
 .paragraphSection {
   padding-bottom: 2rem;
+  margin-bottom: 12%;
 }
 
  footer {
@@ -490,7 +491,7 @@ a.nonlinelink2 {
 
   .wordsAndSpeaking {
     margin-top: 8%;
-    margin-bottom: 8%;
+    margin-bottom: 20%;
   }
 
   .flex-container {
@@ -518,109 +519,3 @@ a.nonlinelink2 {
 }
 
 
-
-
-
-
-
-
-/* --- To Clean--- */
-
-/* @media only screen and (device-width : 375px) and (device-width: 320px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
-  .flex-container {
-    flex-wrap: wrap;
-  }
-
-  h1 {
-    font-size: 45px;
-    line-height: 60px;
-    padding-bottom: 5%;
-  }
-
-  .flex-container {
-    flex-wrap: wrap;
-  }
-
-
-  .photo {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .imgsection {
-    margin-bottom: 8%;
-  }
-
-  .wrapper {
-    width: 100%;
-    max-width: 100%;
-    margin: 0px auto;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .header-wrapper {
-    width: 100%;
-    max-width: 100%;
-    margin: 0px auto;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  p {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-  }
-
-  header .nolinelink {
-    display: none;
-  }
-
-} */
-
-
-
-
-
-
-
-
-
-
-/*  Media Query OLD  */
-
-
-/* @media (max-width: 800px) {
-
-  .flex-container {
-    flex-wrap: wrap;
-  }
-
-
-  .photo {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .imgsection {
-    margin-bottom: 8%;
-  }
-
-  .wrapper {
-    width: 100%;
-    max-width: 100%;
-    margin: 0px auto;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-
-  header .nolinelink {
-    display: none;
-  }
-
-  header {
-    margin-top: 12%;
-  }
-
-} */
