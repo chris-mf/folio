@@ -13,7 +13,7 @@
 
 h1 {
   /* background-color: red; */
-  font-size: 8vw;
+  font-size: 7.5vw;
   line-height: 1.1;
   line-break: auto;
   font-family: 'Inter';
@@ -34,7 +34,7 @@ h2 {
   -webkit-font-feature-settings: "kern"1;
   display: block;
   font-size: 2em;
-  margin-block-start: 0.83em;
+  margin-block-start: 8px;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -61,6 +61,7 @@ body {
   color: #042082;
   font-family: 'inter';
   font-size: 1rem
+ 
 }
 
 
@@ -374,7 +375,7 @@ html {
   }
 
   .wordsAndSpeaking {
-    margin-top: 8%;
+    margin-top: 15%;
     margin-bottom: 8%;
   }
 
@@ -389,7 +390,7 @@ html {
   }
 
   .wordsAndSpeaking {
-    margin-top: 8%;
+    margin-top: 15%;
     margin-bottom: 20%;
   }
 
@@ -491,7 +492,7 @@ a.nonlinelink2 {
   }
 
   .wordsAndSpeaking {
-    margin-top: 8%;
+    margin-top: 15%;
     margin-bottom: 20%;
   }
 
