@@ -33,7 +33,7 @@ h2 {
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   display: block;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-block-start: 8px;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
@@ -261,7 +261,7 @@ header {
 
 
 .paragraphSection {
-  margin-bottom: 6%;
+  margin-bottom: 10%;
 }
 
 .wrapper {
@@ -455,6 +455,10 @@ footer {
   h1 {
     /* background-color: green; */
     font-size: 10vw;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 
 .header-wrapper {
