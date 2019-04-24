@@ -12,23 +12,23 @@
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #151010;
   padding: 0;
   margin: 0;
-  color: #042082;
+  color: #ffffff;
   font-family: 'inter';
   font-size: 1rem;
 }
 
 h1 {
   /* background-color: red; */
-  font-size: 8.2vw;
+  font-size: 9vw;
   line-height: 1.1;
   line-break: auto;
   font-family: 'Inter';
   font-weight: normal;
   font-style: normal;
-  color: #042082;
+  color: #ffffff;
   padding-bottom: 2%;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
@@ -37,14 +37,14 @@ h1 {
 
 @media screen and (min-width: 1440px) {
   h1{
-    font-size: 128px;
+    font-size: 120px;
   }
 }
 
 h2 {
   font-family: 'inter';
   font-weight: 400;
-  color: #042082;
+  color:#ffffff;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   display: block;
@@ -58,7 +58,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-family: 'inter';
-  color: #042082;
+  color: #ffffff;
   margin-block-start: 1em;
   margin-block-end: .2em;
   text-rendering: optimizeLegibility;
@@ -73,14 +73,14 @@ p {
   color: 042082;
   font-size: 1.5rem;
   font-family: 'inter';
-  color: #4F61A5;
+  color: #ffffff;
   line-height: 2.6rem;
   margin-block-start: .5em;
   margin-block-end: .5em;
 }
 
 .foliodescription {
-  color: #65719B;
+  color: #ffffff;
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-family: 'Inter';
@@ -88,7 +88,7 @@ p {
 }
 
 .foliodescription span {
-  color: #042082;
+  color: #CCCBCB;
 }
 
 .numbers {
@@ -100,7 +100,7 @@ p {
 .subhead {
   font-size: 1.5rem;
   font-family: 'inter';
-  color: #042082;
+  color: #ffffff;
   text-decoration: none;
   border-bottom: none;
   margin-block-start: .1em;
@@ -108,7 +108,7 @@ p {
 }
 
 .headertext {
-  color: #042082;
+  color: #CCCBCB;
   font-family: 'inter';
   font-size: 1.5rem;
   line-height: 2.6rem;
@@ -132,7 +132,7 @@ header .nolinelink {
 a {
   font-size: 1.5rem;
   font-family: 'inter';
-  color: #4F61A5;
+  color: #ffffff;
   line-height: 2.6rem;
 }
 
@@ -140,20 +140,20 @@ a:link {
   font-size: 1.5rem;
   text-decoration: none;
   border-bottom: 2px solid;
-  border-color: #CECDD2;
+  border-color: #ffffff;
 }
 
 /* visited link */
 a:visited {
-  color: #4F61A5;
-  border-color: #CECDD2;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 a:hover {
-  border-color: #CECDD2;
+  border-color:  #CCCBCB;
   text-decoration: line-through;
   border-bottom: none;
-  color: #CECDD2;
+  color:  #CCCBCB;
 }
 
 
@@ -161,19 +161,19 @@ a.NoLineLink {
   font-size: 1.5rem;
   text-decoration: none;
   padding-bottom: 3px;
-  color: #4F61A5;
+  color: #ffffff;
 }
 
 
 a.NoLineLink:link {
   text-decoration: none;
   padding-bottom: 3px;
-  color: #4F61A5;
+  color: #ffffff;
   border-bottom: none;
 }
 
 a.NoLineLink:hover {
-  color: #042082;
+  color: #CCCBCB;
   transition: color 0.2s ease-in-out 0s;
 }
 
@@ -251,7 +251,7 @@ a.NolineLink2{
 
 
 .project-link:hover .imgsection>.subhead {
-  color: #828CB1;
+  color: #CCCBCB;;
   text-decoration: none;
 }
 
@@ -347,12 +347,6 @@ header {
 .big-text span {
   display: block;
 }
-
-/* .flex-container {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-} */
 
 .second-case-study {
   margin: 50%;
