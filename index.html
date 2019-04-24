@@ -2,6 +2,7 @@
 
 <head>
     <title> ⚡ Christopher Ellis - Product designer</title>
+    <link href="./normalize.css" rel="stylesheet" />
     <link href="./style.css" rel="stylesheet" />
     <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,8 @@
 
 
 <body>
-    <header class="header-wrapper">
+    <div id="page">
+        <header class="header-wrapper">
             <span>
                 <a class="headertext" href="index.html">Christopher Ellis</a>
             </span>
@@ -20,90 +22,95 @@
             </span>
         </header>
 
-    <div class="wrapper">
-        <div class="big-text">
-            <h1>
-                <span>Product design.</span>
-                <span>User research.</span>
-                <span>Rapid prototyping.</span>
-            </h1>
-        </div>
+        <!-- <div class="wrapper"> -->
+            <div class="big-text wide-col">
+                <h1>
+                    <span>Product design.</span>
+                    <span>User research.</span>
+                    <span>Rapid prototyping.</span>
+                </h1>
+            </div>
 
-        <div class="paragraphSection">
-            <p class="paragraph"> Hey there, I’m a lead product designer at <a href="https://mentallyfriendly.com">
-                    Mentally
-                    Friendly</a> solving complex problems
-                in the well-being space across government, finance and health.</p>
-            <p class="paragraph"> I love working with blended teams ⚡ and
-                find comfort in navigating the
-                unknown. </p>
-        </div>
+            <div class="paragraphSection narrow-col">
+                <p class="paragraph"> Hey there, I’m a lead product designer at <a href="https://mentallyfriendly.com">
+                        Mentally
+                        Friendly</a> solving complex problems
+                    in the well-being space across government, finance and health.</p>
+                <p class="paragraph"> I love working with blended teams ⚡ and
+                    find comfort in navigating the
+                    unknown. </p>
+            </div>
 
-        <div class="numbers">01</div>
-        <div class="work">
-            <h2>Recent work</h2>
-            <div class="flex-container">
-
-                 <a class="project-link" href="https://mentallyfriendly.com/case-study/ddl" target="blank"> 
-                    <div class="imgsection">
-                        <img src="images/sleepsense.jpg" class="photo" alt="Man holding phone with sleep tracker showing">
-                        <p class="subhead" >Sleepsense</p>
-                        <p class="foliodescription"><span>A.H. Beard</span> – Product & Service design</p>
-                    </div> 
-                </a>
-
-               <a class="project-link" class="second-case-study" href="https://mentallyfriendly.com/case-study/ddl" target="blank"> 
-                    <div class="imgsection">
-                        <img src="images/ddl.jpg" class="photo" alt="Man holding phone with digital drivers licence on screen">
-                        <p class="subhead" >Digital Drivers Licence</p>
-                        <p class="foliodescription"><span>Service NSW</span> – Rapid prototyping</p>
-                    </div> 
-                </a>
             
-            </div>
-        </div>
+            <div class="work wide-col">
+                <div class="numbers">01</div>
+                <h2>Recent work</h2>
+                <div class="flex-container">
 
+                    <a class="project-link" href="https://mentallyfriendly.com/case-study/ddl" target="blank"> 
+                        <div class="imgsection">
+                            <div class="photo-wrapper">
+                                <img src="images/sleepsense.jpg" class="photo" alt="Man holding phone with sleep tracker showing">
+                            </div>
+                            <p class="subhead" >Sleepsense</p>
+                            <p class="foliodescription"><span>A.H. Beard</span> – Product & Service design</p>
+                        </div> 
+                    </a>
+
+                <a class="project-link" class="second-case-study" href="https://mentallyfriendly.com/case-study/ddl" target="blank"> 
+                        <div class="imgsection">
+                            <div class="photo-wrapper">
+                                <img src="images/ddl.jpg" class="photo" alt="Man holding phone with digital drivers licence on screen">
+                            </div>
+                            <p class="subhead" >Digital Drivers Licence</p>
+                            <p class="foliodescription"><span>Service NSW</span> – Rapid prototyping</p>
+                        </div> 
+                    </a>
+                
+                </div>
+            </div>
+
+            
+            <div class="wordsAndSpeaking narrow-col">
+                    <div class="numbers">
+                        02
+                    </div>
+                <div>
+                    <h2>Words</h2>
+                </div>
         
-        <div class="wordsAndSpeaking">
-                <div class="numbers">02</div>
-            <div>
-                <h2>Words</h2>
+                <p><a href="https://medium.com/@chris.e/reducing-interruptions-with-flow-time-820fbbeaf1b8" target="_blank">Reducing
+                        interruptions with Flow Time</a></p>
+                <p><a href="https://medium.com/@chris.e/the-benefits-of-a-war-room-e4c9f31fa308" target="_blank">Benefits of a war room</a>
+                </p>
+
+                <p><a href="https://medium.com/@chris.e/co-locating-with-our-clients-aa47498929e7" target="_blank">Co-locating with clients</a>
+                </p>
             </div>
-       
 
 
-        <p><a href="https://medium.com/@chris.e/reducing-interruptions-with-flow-time-820fbbeaf1b8" target="_blank">Reducing
-                interruptions with Flow Time</a></p>
-        <p><a href="https://medium.com/@chris.e/the-benefits-of-a-war-room-e4c9f31fa308" target="_blank">Benefits of a war room</a>
-        </p>
+            <div class="wordsAndSpeaking narrow-col">
+                    <div class="numbers">03</div>
+                <div>
+                    <h2>Speaking</h2>
+                </div>
+                <div>
+                    <a href="https://generalassemb.ly/education/imposter-syndrome-how-to-combat-feeling-like-a-fraud" target="blank">
+                        Imposter Syndrome - General Assembly</a>
+                </div>
 
-        <p><a href="https://medium.com/@chris.e/co-locating-with-our-clients-aa47498929e7" target="_blank">Co-locating with clients</a>
-        </p>
+            </div>
+
+            <footer id="contact-section" class="wide-col">
+                <a class="NoLineLink" href="https://twitter.com/christoph_ellis">Twitter.</a>
+                <a class="NoLineLink" href="https://medium.com/@chris.e">Medium.</a>
+                <a class="NoLineLink" href="https://linkedin.com/in/ellischristoph/">LinkedIn.</a>
+                <a class="NoLineLink" href="https://dribbble.com/chrisellis">Dribbble.</a>
+                <a class="NoLineLink" href="mailto:ellis.christoph@gmail.com?Subject=Hello%20again" target="_top">Email.</a>
+            </footer>
+
+        <!-- </div> -->
     </div>
-
-
-        <div class="wordsAndSpeaking">
-                <div class="numbers">03</div>
-            <div>
-                <h2>Speaking</h2>
-            </div>
-            <div>
-                <a href="https://generalassemb.ly/education/imposter-syndrome-how-to-combat-feeling-like-a-fraud" target="blank">
-                    Imposter Syndrome - General Assembly</a>
-            </div>
-
-        </div>
-
-        <footer id="contact-section" class="footerpadding">
-            <a class="NoLineLink" href="https://twitter.com/christoph_ellis">Twitter.</a>
-            <a class="NoLineLink" href="https://medium.com/@chris.e">Medium.</a>
-            <a class="NoLineLink" href="https://linkedin.com/in/ellischristoph/">LinkedIn.</a>
-            <a class="NoLineLink" href="https://dribbble.com/chrisellis">Dribbble.</a>
-            <a class="NoLineLink" href="mailto:ellis.christoph@gmail.com?Subject=Hello%20again" target="_top">Email.</a>
-        </footer>
-
-    </div>
-</div>
 </body>
 
 

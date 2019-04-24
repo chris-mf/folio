@@ -11,6 +11,15 @@
   box-sizing: border-box
 }
 
+body {
+  background-color: #fafafa;
+  padding: 0;
+  margin: 0;
+  color: #042082;
+  font-family: 'inter';
+  font-size: 1rem;
+}
+
 h1 {
   /* background-color: red; */
   font-size: 8.2vw;
@@ -24,6 +33,12 @@ h1 {
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   white-space: nowrap;
+}
+
+@media screen and (min-width: 1440px) {
+  h1{
+    font-size: 128px;
+  }
 }
 
 h2 {
@@ -53,17 +68,6 @@ h3 {
 span {
   margin-bottom: 12px;
 }
-
-body {
-  background-color: #fafafa;
-  padding: 0;
-  margin: 0;
-  color: #042082;
-  font-family: 'inter';
-  font-size: 1rem
- 
-}
-
 
 p {
   color: 042082;
@@ -196,16 +200,43 @@ a.NolineLink2{
 }
 
 .photo {
-  transition: all .2s ease-in-out;
   position: relative;
-  width: 682px;
-  height: 500px;
+  width: 100%;
+  height: auto;
+  display: block;
 
+  /* background-color: red;
+  background-blend-mode: multiply; */
+}
+
+.photo-wrapper{
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.photo-wrapper::before{
+  transition: all .2s ease-in-out;
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #C8D4FF;  
+  z-index: 2;
+  mix-blend-mode: color;
+  opacity: 0;
+}
+
+.project-link:hover .photo-wrapper::before {
+  opacity: 1;
 }
 
 .project-link {
+  display: block;
   position: relative;
   margin-right: auto;
+  width: 66.66%;
 
 }
 
@@ -216,10 +247,7 @@ a.NolineLink2{
 
 
 
-.project-link:hover .imgsection>.photo {
-  text-decoration: none;
-  opacity: 0.8;
-}
+
 
 
 .project-link:hover .imgsection>.subhead {
@@ -241,6 +269,28 @@ a.project-link:visited {
 
 
 /* Section Styles ------------------------------- */
+
+#page {
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+
+.narrow-col{
+  margin: 0 auto;
+  max-width: 920px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.wide-col{
+  padding-left: 4%;
+  padding-right: 4%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
 
 header {
   display: flex;
@@ -291,18 +341,18 @@ header {
 }
 
 .big-text {
-  max-width: 1000px;
+  /* max-width: 1000px; */
 }
 
 .big-text span {
   display: block;
 }
 
-.flex-container {
+/* .flex-container {
   display: flex;
   width: 100%;
   flex-direction: column;
-}
+} */
 
 .second-case-study {
   margin: 50%;
@@ -318,10 +368,12 @@ header {
   max-width: 760px;
 }
 
-footer {
+footer.wide-col {
   display: block;
   margin-top: 20%;
   margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'inter';
 }
 
@@ -387,6 +439,10 @@ html {
   h1 {
     /* background-color: blue; */
     font-size: 10vw;
+  }
+
+  .project-link{
+    width: 100%;
   }
 
   .wordsAndSpeaking {
@@ -461,34 +517,34 @@ footer {
     font-size: 2rem;
   }
 
-.header-wrapper {
-  padding-left: 5%;
-}
+  .header-wrapper {
+    padding-left: 5%;
+  }
 
   header a.NoLineLink:link{
     display: none;
   }
 
   a.headertext {
-  font-size: 1.2rem;
-}  
+    font-size: 1.2rem;
+  }  
 
-a.nonlinelink2 {
-  display: none;
-}
+  a.nonlinelink2 {
+    display: none;
+  }
 
-.paragraphSection {
-  padding-bottom: 2rem;
-  margin-bottom: 12%;
-}
+  .paragraphSection {
+    padding-bottom: 2rem;
+    margin-bottom: 12%;
+  }
 
- footer {
-   padding-bottom: 20%;
- }
+  footer {
+    padding-bottom: 20%;
+  }
 
- .subhead {
-   font-size: 1.2rem
- }
+  .subhead {
+    font-size: 1.2rem
+  }
 
   header {
     margin-top: 15%;
