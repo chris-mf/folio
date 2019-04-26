@@ -11,8 +11,14 @@
   box-sizing: border-box
 }
 
+h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+
+font-weight: normal;
+
+}
+
 body {
-  background-color: #151010;
+  background-color: #000000;
   padding: 0;
   margin: 0;
   color: #ffffff;
@@ -73,7 +79,7 @@ p {
   color: 042082;
   font-size: 1.5rem;
   font-family: 'inter';
-  color: #ffffff;
+  color: #bababa;
   line-height: 2.6rem;
   margin-block-start: .5em;
   margin-block-end: .5em;
@@ -108,7 +114,7 @@ p {
 }
 
 .headertext {
-  color: #CCCBCB;
+  color: #ffffff;
   font-family: 'inter';
   font-size: 1.5rem;
   line-height: 2.6rem;
@@ -132,7 +138,7 @@ header .nolinelink {
 a {
   font-size: 1.5rem;
   font-family: 'inter';
-  color: #ffffff;
+  color: #bababa;
   line-height: 2.6rem;
 }
 
@@ -141,20 +147,20 @@ a:link {
   text-decoration: none;
   border-bottom: 1px solid;
   padding-bottom: 3px;
-  border-color: #ffffff;
+  border-color: #bababa;
 }
 
 /* visited link */
 a:visited {
-  color: #ffffff;
-  border-color: #ffffff;
+  color: #bababa;
+  border-color: #bababa;
 }
 
 a:hover {
-  border-color:  #CCCBCB;
+  border-color:  #bababa;
   text-decoration: line-through;
   border-bottom: none;
-  color:  #CCCBCB;
+  color:  #bababa;
 }
 
 
@@ -174,7 +180,7 @@ a.NoLineLink:link {
 }
 
 a.NoLineLink:hover {
-  color: #CCCBCB;
+  color: #bababa;
   transition: color 0.2s ease-in-out 0s;
 }
 
@@ -216,7 +222,7 @@ a.NolineLink2{
 }
 
 .photo-wrapper::before{
-  transition: all .2s ease-in-out;
+  transition: all .1s ease-in-out;
   content: '';
   position: absolute;
   top: 0px;
