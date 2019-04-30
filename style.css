@@ -16,10 +16,10 @@ letter-spacing: -0.002em;
 }
 
 body {
-  background-color: #000000;
+  background-color: #06061C;
   padding: 0;
   margin: 0;
-  color: #ffffff;
+  /* color: #9C9CB1; */
   font-family: 'inter';
   font-size: 1rem;
 }
@@ -77,14 +77,14 @@ p {
   color: 042082;
   font-size: 1.5rem;
   font-family: 'inter';
-  color: #bababa;
+  color: #9C9CB1;
   line-height: 2.6rem;
   margin-block-start: .5em;
   margin-block-end: .5em;
 }
 
 .foliodescription {
-  color: #ffffff;
+  color: #9C9CB1;
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-family: 'Inter';
@@ -92,12 +92,13 @@ p {
 }
 
 .foliodescription span {
-  color: #CCCBCB;
+  color: #9C9CB1;
 }
 
 .numbers {
   font-size: 1rem;
-  font-family: 'Inter';
+		font-family: 'Inter';
+		color: #ffffff;
   text-rendering: optimizeLegibility;
 }
 
@@ -136,7 +137,7 @@ header .nolinelink {
 a {
   font-size: 1.5rem;
   font-family: 'inter';
-  color: #bababa;
+  color: #9C9CB1;
   line-height: 2.6rem;
 }
 
@@ -145,41 +146,41 @@ a:link {
   text-decoration: none;
   border-bottom: 1px solid;
   padding-bottom: 3px;
-  border-color: #bababa;
+  border-color: #E24EEA;
 }
 
 /* visited link */
 a:visited {
-  color: #bababa;
-  border-color: #bababa;
+  color: #9C9CB1;
+  border-color: #E24EEA;
 }
 
 a:hover {
-  border-color:  #bababa;
+  border-color: #E24EEA;
   text-decoration: line-through;
   border-bottom: none;
-  color:  #bababa;
+  color:  #E24EEA;
 }
 
 
 a.NoLineLink {
   font-size: 1.5rem;
   text-decoration: none;
-  padding-bottom: 3px;
-  color: #ffffff;
+  /* padding-bottom: 3px; */
+  color: #9C9CB1;
 }
 
 
 a.NoLineLink:link {
   text-decoration: none;
-  padding-bottom: 3px;
-  color: #ffffff;
+  /* padding-bottom: 3px; */
+  color: #9C9CB1;
   border-bottom: none;
 }
 
 a.NoLineLink:hover {
-  color: #bababa;
-  transition: color 0.2s ease-in-out 0s;
+  color: #7DF8F9;
+  transition: color 0.3s ease-in-out 0s;
 }
 
 
@@ -209,9 +210,6 @@ a.NolineLink2{
   width: 100%;
   height: auto;
   display: block;
-
-  /* background-color: red;
-  background-blend-mode: multiply; */
 }
 
 .photo-wrapper{
@@ -220,7 +218,7 @@ a.NolineLink2{
 }
 
 .photo-wrapper::before{
-  /* transition: all .1s ease-in-out; */
+  transition: all .3s ease-in-out;
   content: '';
   position: absolute;
   top: 0px;
