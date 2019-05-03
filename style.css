@@ -178,15 +178,15 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #9C9CB1;
+  /* color: #9C9CB1; */
   border-color: #E24EEA;
 }
 
 a:hover {
   border-color: #E24EEA;
-  text-decoration: line-through;
-  border-bottom: none;
-  color:  #E24EEA;
+  /* text-decoration: line-through; */
+  border-bottom: 2px solid;
+		color:  #E24EEA;
 }
 
 
