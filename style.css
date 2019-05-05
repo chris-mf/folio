@@ -83,7 +83,8 @@ h2 {
   margin-block-start: 8px;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
-  margin-inline-end: 0px;
+		margin-inline-end: 0px;
+		max-width: 700px;
 }
 
 h3 {
@@ -105,8 +106,8 @@ p {
   font-size: 1.5rem;
   font-family: 'inter';
   color: #9C9CB1;
-  line-height: 2.6rem;
-  margin-block-start: .5em;
+		line-height: 2.2rem;
+		margin-block-start: .5em;
   margin-block-end: .5em;
 }
 
@@ -146,6 +147,14 @@ p {
   line-height: 2.6rem;
 }
 
+.white{
+	color: #ffffff;
+	padding-bottom: 15px;
+}
+
+.spacer-para{
+	margin-bottom: 25px;
+}
 
 
 header .nolinelink {
@@ -173,8 +182,9 @@ a:link {
   text-decoration: none;
   border-bottom: 2px solid;
   padding-bottom: 3px;
-  border-color: #E24EEA;
+		border-color: #E24EEA;
 }
+
 
 /* visited link */
 a:visited {
@@ -187,6 +197,8 @@ a:hover {
   /* text-decoration: line-through; */
   border-bottom: 2px solid;
 		color:  #E24EEA;
+		/* transform: scale(1.01);
+		transition: 0.2s ease-in-out 0s; */
 }
 
 
@@ -202,12 +214,12 @@ a.NoLineLink:link {
   text-decoration: none;
   /* padding-bottom: 3px; */
   color: #9C9CB1;
-  border-bottom: none;
+		border-bottom: none;
 }
 
 a.NoLineLink:hover {
   color: #7DF8F9;
-  transition: color 0.3s ease-in-out 0s;
+		transition: color 0.3s ease-in-out 0s;
 }
 
 
