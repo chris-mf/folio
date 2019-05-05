@@ -101,6 +101,12 @@ span {
   margin-bottom: 12px;
 }
 
+.white{
+	color: #ffffff;
+	padding-bottom: 15px;
+}
+
+
 p {
   color: 042082;
   font-size: 1.5rem;
@@ -147,10 +153,7 @@ p {
   line-height: 2.6rem;
 }
 
-.white{
-	color: #ffffff;
-	padding-bottom: 15px;
-}
+
 
 .spacer-para{
 	margin-bottom: 25px;
