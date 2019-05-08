@@ -173,7 +173,7 @@ header .nolinelink {
 /* Link Styles ------------------------------- */
 
 
-.hvr-float {
+/* .hvr-float {
 	display: inline-block;
 	vertical-align: middle;
 	-webkit-transform: perspective(1px) translateZ(0);
@@ -189,7 +189,7 @@ header .nolinelink {
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
 	-webkit-transform: translateY(-4px);
 	transform: translateY(-4px);
-}
+} */
 
 a {
   font-size: 1.5rem;
