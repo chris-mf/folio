@@ -173,6 +173,24 @@ header .nolinelink {
 /* Link Styles ------------------------------- */
 
 
+.hvr-float {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+	-webkit-transform: translateY(-4px);
+	transform: translateY(-4px);
+}
+
 a {
   font-size: 1.5rem;
   font-family: 'inter';
@@ -184,7 +202,7 @@ a:link {
   font-size: 1.5rem;
   text-decoration: none;
   border-bottom: 2px solid;
-  padding-bottom: 2px;
+  padding-bottom: 1px;
 		border-color: #E24EEA;
 }
 
