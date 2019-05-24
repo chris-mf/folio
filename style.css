@@ -72,6 +72,13 @@ h1 {
   }
 }
 
+@media screen and (min-width: 2000px) {
+  h1{
+    font-size: 4vw;
+  }
+}
+
+
 h2 {
   font-family: 'inter';
   font-weight: 400;
@@ -126,11 +133,11 @@ p {
     margin-block-start: .5em;
     margin-block-end: .5em;
   }
-}
+
 
 .foliodescription {
   color: #ffffff;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   font-family: 'Inter';
   margin-block-end: .1rem;
@@ -191,6 +198,30 @@ header .nolinelink {
 
 }
 
+
+
+/* Animations */
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
 /* Link Styles ------------------------------- */
 
  
@@ -219,8 +250,8 @@ a:visited {
 
 a:hover {
   border-color: #7DF8F9;
-  /* text-decoration: line-through; */
-  /* border-bottom: 1px solid; */
+  /* text-decoration: line-through;
+  border-bottom: 1.5px solid; */
 		color:  #7DF8F9;
 		transition: 0.3s ease-in-out 0s; 
 }
@@ -364,7 +395,7 @@ a.project-link:visited {
 .extrawide-col {
   margin: 0 auto;
   margin-top: 0px;
-  margin-right: 7%;
+  margin-right: 0%;
   margin-bottom: 0px;
   margin-left: auto;
   max-width: 600px;
@@ -559,6 +590,23 @@ html {
 
   header {
     margin-top: 12%;
+  }
+
+  .wide-col-left {
+    padding-right: 4%;
+    padding-left: 5%;
+    max-width: 1200px;
+  }
+
+  .extrawide-col {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: 0%;
+    margin-bottom: 0px;
+    margin-left: auto;
+    max-width: 600px;
+    padding-left: 4%;
+    padding-right: 4%
   }
 
   footer.wide-col {
