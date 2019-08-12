@@ -74,10 +74,9 @@ h1 {
 
 @media screen and (min-width: 2000px) {
   h1{
-    font-size: 4vw;
+    font-size: 6vw;
   }
 }
-
 
 h2 {
   font-family: 'inter';
@@ -233,27 +232,47 @@ a {
   line-height: 2.6rem;
 }
 
-a:link {
+.link {
   font-size: 1.5rem;
   text-decoration: none;
-  border-bottom: 1px solid;
+  /* border-bottom: 1px solid; */
   padding-bottom: 4px;
-		border-color: #7DF8F9;
+  /* border-color: #7DF8F9; */
+  display: inline-block;
+  position: relative;
+  z-index: 999;
 }
 
 
 /* visited link */
 a:visited {
   /* color: #9C9CB1; */
-  border-color: #7DF8F9;
+  /* border-color: #7DF8F9; */
+}
+
+a.link:after {
+  content: '';
+  height: 2px;
+  display: block;
+  width: 100%;
+  background: #7DF8F9;
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  z-index: -1;
+  transition: height 0.2s ease;
+}
+
+a.link:hover:after {
+  height: 8px;
 }
 
 a:hover {
-  border-color: #7DF8F9;
+  /* border-color: #7DF8F9; */
   /* text-decoration: line-through;
   border-bottom: 1.5px solid; */
-		color:  #7DF8F9;
-		transition: 0.3s ease-in-out 0s; 
+  color:  #7DF8F9;
+  transition: 0.3s ease-in-out; 
 }
 
 
@@ -269,7 +288,7 @@ a.NoLineLink:link {
   text-decoration: none;
   /* padding-bottom: 3px; */
   color: #9C9CB1;
-		border-bottom: none;
+	border-bottom: none;
 }
 
 a.NoLineLink:hover {
@@ -294,16 +313,16 @@ a.headertext {
   border-bottom: none;
 }
 
+.photo-wrapper{
+  position: relative;
+  margin-bottom: 1em;
+}
+
 .photo {
   position: relative;
   width: 100%;
   height: auto;
   display: block;
-}
-
-.photo-wrapper{
-  position: relative;
-  margin-bottom: 1em;
 }
 
 .photo-wrapper::before{
@@ -382,14 +401,14 @@ a.project-link:visited {
 .wide-col{
   padding-left: 4%;
   padding-right: 4%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
 .wide-col-left{
   padding-right: 6%;
   padding-left: 5%;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .extrawide-col {
@@ -595,7 +614,7 @@ html {
   .wide-col-left {
     padding-right: 4%;
     padding-left: 5%;
-    max-width: 1200px;
+    max-width: 1400px;
   }
 
   .extrawide-col {
