@@ -242,6 +242,10 @@ a {
   z-index: 999;
 }
 
+.paragraph-link {
+  font-family: 'GT-America-Standard-Regular'
+}
+
 
 /* visited link */
 a:visited {
