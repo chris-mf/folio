@@ -492,6 +492,10 @@ header {
   margin-bottom: 45px;
 }
 
+.wide-max{
+  max-width: 460px;
+}
+
 footer.wide-col {
   display: block;
   margin-top: 180px;
