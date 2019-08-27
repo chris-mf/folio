@@ -437,6 +437,8 @@ header {
   max-width: 1440px;
   padding-left: 6%;
   padding-right: 6%;
+  position: sticky;
+  z-index: 999;
 }
 
 .paragraphSection {
@@ -486,6 +488,24 @@ header {
   margin-bottom: 12%;
 }
 
+/* .smile{
+ 
+} */
+
+.smile {
+  /* border-radius: 50%; */
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+          transition: transform .6s ease-in-out;
+          z-index: 6;
+        
+}
+.smile:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          transform-origin: center center;
+         
+
+}
 
 .paragraph {
   max-width: 760px;
