@@ -328,6 +328,13 @@ a.headertext {
   display: block;
 }
 
+.small-photo{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .photo-wrapper::before{
   transition: all .3s ease-in-out;
   content: '';
