@@ -328,11 +328,18 @@ a.headertext {
   display: block;
 }
 
-.small-photo{
-  position: relative;
-  width: 100%;
+/* .background-photo {
+  width: 531px;
   height: auto;
-  display: block;
+  position: relative;
+  z-index: -1;
+} */
+
+.small-photo{
+  width: 531px;
+  height: auto;
+  position: relative;
+  z-index: -1;
 }
 
 .photo-wrapper::before{
@@ -467,7 +474,20 @@ header {
   padding-left: 6%;
   padding-right: 6%;
   margin-top: 3%;
+  /* margin-bottom: 5%;
+  padding-bottom: 5%; */
+  /* position: fixed; */
 }
+
+/* .header-wraper-container{
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    justify-content: space-between;
+    pointer-events: all;
+    padding: 20px;
+    margin: 0 auto;
+  } */
 
 
 .work {
@@ -499,19 +519,27 @@ header {
  
 } */
 
-.smile {
+.smile img {
   /* border-radius: 50%; */
   -webkit-transition: -webkit-transform .6s ease-in-out;
-          transition: transform .6s ease-in-out;
-          z-index: 6;
+          transition: transform .5s ease-in-out;
+          z-index: 0;
+          transform-origin: center;
         
 }
-.smile:hover {
+.smile img:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
-          transform-origin: center center;
-         
+          transform-origin: center;
+          -webkit-animation-name: rotate; 
+          -webkit-animation-duration: 0.7s; 
+          -webkit-animation-iteration-count: infinite;
+          -webkit-animation-timing-function: linear;
+}
 
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
 }
 
 .paragraph {
