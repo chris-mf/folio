@@ -471,9 +471,18 @@ header {
   padding-left: 6%;
   padding-right: 6%;
   margin-top: 3%;
-  position: sticky;
-  z-index: 999;
+
 }
+
+/* .header-wraper-container{
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    justify-content: space-between;
+    pointer-events: all;
+    padding: 20px;
+    margin: 0 auto;
+  } */
 
 
 .work {
@@ -505,19 +514,27 @@ header {
  
 } */
 
-.smile {
+.smile img {
   /* border-radius: 50%; */
   -webkit-transition: -webkit-transform .6s ease-in-out;
-          transition: transform .6s ease-in-out;
-          z-index: 6;
+          transition: transform .5s ease-in-out;
+          z-index: 0;
+          transform-origin: center;
         
 }
-.smile:hover {
+.smile img:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
-          transform-origin: center center;
-         
+          transform-origin: center;
+          -webkit-animation-name: rotate; 
+          -webkit-animation-duration: 0.7s; 
+          -webkit-animation-iteration-count: infinite;
+          -webkit-animation-timing-function: linear;
+}
 
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
 }
 
 .paragraph {
