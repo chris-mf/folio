@@ -329,10 +329,13 @@ a.headertext {
 }
 
 .small-photo{
-  position: relative;
-  width: 100%;
+  position: fixed;
+  width: 663px;
   height: auto;
   display: block;
+  right: 40px;
+  top: 300px;
+  z-index: -1;
 }
 
 .photo-wrapper::before{
@@ -450,6 +453,7 @@ header {
 
 .paragraphSection {
   margin-bottom: 10%;
+  position: relative; 
 }
 
 .wrapper {
@@ -467,6 +471,8 @@ header {
   padding-left: 6%;
   padding-right: 6%;
   margin-top: 3%;
+  position: sticky;
+  z-index: 999;
 }
 
 
@@ -607,6 +613,10 @@ html {
     margin-bottom: 8%;
   }
 
+  .small-photo{
+   display: none;
+  }
+
 }
 
 
@@ -621,6 +631,10 @@ html {
   .project-link{
     width: 100%;
   }
+
+  .small-photo{
+    display: none;
+   }
 
   .wordsAndSpeaking {
     margin-top: 15%;
@@ -717,6 +731,11 @@ html {
     /* background-color: green; */
     font-size: 10vw;
   }
+
+  .small-photo{
+    display: none;
+   }
+
 
   h2 {
     font-size: 2rem;
