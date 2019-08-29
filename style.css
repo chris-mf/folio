@@ -9,6 +9,13 @@
   box-sizing: border-box
 }
 
+::selection {
+  background: #7DF8F9; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #7DF8F9; /* Gecko Browsers */
+}
+
 h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
 
 font-weight: normal;
@@ -181,6 +188,10 @@ p {
   max-width: 1680px;
 }
 
+.NoLineLink-about {
+  padding-right: 2rem;
+}
+
 .spacer-para{
 	margin-bottom: 25px;
 }
@@ -334,7 +345,7 @@ a.headertext {
   height: auto;
   display: block;
   right: 40px;
-  top: 300px;
+  top: 250px;
   z-index: -1;
 }
 
@@ -456,6 +467,8 @@ header {
   position: relative; 
 }
 
+
+
 .wrapper {
   width: 100%;
   max-width: 1440px;
@@ -500,6 +513,7 @@ header {
 .big-text span {
   display: block;
 }
+
 
 .second-case-study {
   margin: 50%;
