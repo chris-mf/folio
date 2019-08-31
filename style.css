@@ -16,6 +16,11 @@
   background: #7DF8F9; /* Gecko Browsers */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
 
 font-weight: normal;
@@ -110,6 +115,16 @@ h3 {
   -webkit-font-feature-settings: "kern"1;
 }
 
+/* h4 {
+  font-size: 3em; 
+  color: #ffffff;
+  margin-block-start: 1em;
+  margin-block-end: .2em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern"1;
+  font-family: 'GT-America-Extended-Regular';
+} */
+
 span {
   margin-bottom: 12px;
 }
@@ -144,7 +159,7 @@ p {
 
 .foliodescription {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5rem;
   font-family: 'GT-America-Extended-Regular';
   margin-block-end: .1rem;
@@ -196,6 +211,11 @@ p {
 	margin-bottom: 25px;
 }
 
+.centered{
+  text-align: center;
+  max-width: 300px;
+}
+
 
 header .nolinelink {
   margin-left: 4rem;
@@ -239,14 +259,14 @@ a {
   font-size: 1.5rem;
   font-family: 'GT-America-Extended-Regular';
   color: #ffffff;
-  line-height: 2.6rem;
+  /* line-height: 2.6rem; */
 }
 
 .link {
   font-size: 1.5rem;
   text-decoration: none;
   /* border-bottom: 1px solid; */
-  padding-bottom: 4px;
+  /* padding-bottom: 4px; */
   text-decoration: underline;
   text-decoration-color: #7DF8F9;
   /* border-color: #7DF8F9; */
@@ -550,7 +570,7 @@ header {
 }
 
 .paragraph {
-  max-width: 760px;
+max-width: 600px;
   margin-bottom: 45px;
 }
 
