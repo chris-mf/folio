@@ -72,7 +72,7 @@ h1 {
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
-  padding-bottom: 8%;
+  padding-bottom: 4%;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   white-space: nowrap;
@@ -359,6 +359,7 @@ a.headertext {
 .photo-wrapper{
   position: relative;
   margin-bottom: 1em;
+  margin-top: 2rem;
 }
 
 .photo {
@@ -437,6 +438,13 @@ a.project-link:visited {
   max-width: 1440px;
   margin: 0 auto;
 
+}
+
+.content-center{
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  vertical-align: bottom;
 }
 
 
@@ -543,6 +551,15 @@ header {
   text-align: center;
 }
 
+.responsible span{
+  display: block;
+}
+
+.responsible{
+  margin-top: 50px;
+}
+
+
 
 .case-study-hero-image{
   display: block;
@@ -553,7 +570,7 @@ header {
 
 .case-study-text {
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-right: 5%;
   margin-bottom: 0px;
   margin-left: auto;
@@ -703,11 +720,6 @@ html {
     margin-bottom: 8%;
   }
 
- 
-
-  /* .small-photo{
-   display: none;
-  } */
 
 }
 
@@ -752,6 +764,7 @@ html {
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 5%;
+    align-items: center;
   }
 
   .flex-container {
@@ -813,7 +826,7 @@ html {
 
 .paragraphSection {
   padding-bottom: 2rem;
-  margin-bottom: 12%;
+  /* margin-bottom: 12%; */
 }
 
 .footer-line {
@@ -842,6 +855,15 @@ html {
     top: 0px;
     left: 0px;
     right: 0px;
+
+  }
+
+  .project-link {
+    display: inline;
+    position: relative;
+    margin-right: auto;
+    width: 66.66%;
+  
   }
 
 
@@ -851,7 +873,9 @@ html {
 
   .header-wrapper {
     padding-left: 5%;
+    align-items: center;
   }
+
 
   header .NoLineLink-contact {
     display: none;
