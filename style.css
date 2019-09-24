@@ -258,10 +258,17 @@ header .nolinelink {
 }
 
 
+@keyframes rotateIn {
+  0% { opacity: 0; transform: rotate(3deg); }
+}
 
+[data-scroll] {
+  transform-origin: top left;
+}
 
-
-
+[data-scroll].onscreen {
+  animation: rotateIn 1s ease forwards;
+}
 
 
 
@@ -578,12 +585,12 @@ header {
 }
 
 .paragraph {
-max-width: 600px;
+  max-width: 600px;
   margin-bottom: 45px;
 }
 
 .wide-max{
-  max-width: 460px;
+  max-width: 600px;
 }
 
 footer.wide-col {
@@ -705,6 +712,7 @@ html {
     top: 0px;
     left: 0px;
     right: 0px;
+    opacity: 100;
   }
 
   .wordsAndSpeaking {
@@ -810,6 +818,7 @@ html {
     top: 0px;
     left: 0px;
     right: 0px;
+    opacity: 100;
 
   }
 

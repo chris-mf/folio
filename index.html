@@ -18,12 +18,19 @@
         }
         gtag('js', new Date());gtag('config', 'UA-146588141-1');
     </script>
+        
+    <script type="module">
+     // this package will add the slass on scroll
+    import "https://storage.googleapis.com/pika-cdn-packages-03/scroll-triggers/4.2.0/dist-es2019/scroll-triggers.min.js";
+     </script>
+
+
 </head>
 
 
 <body>
     <div id="page">
-        <header class="header-wrapper fade-in">
+        <header class="header-wrapper">
 
             <div class="smile">
                 <span><a href="index.html"><img src="images/smile.svg" width="70" height="70" alt="smilyface"></a>
@@ -37,7 +44,7 @@
         </header>
 
         <!-- <div class="wrapper"> -->
-        <div class="big-text wide-col-left fade-in spacer-header">
+        <div class="big-text wide-col-left  spacer-header">
             <h1>
                 <span>Product design.</span>
                 <span>User research.</span>
@@ -46,7 +53,7 @@
         </div>
 
 
-        <div class="paragraphSection extrawide-col fade-in">
+        <div class="paragraphSection extrawide-col ">
             <p class="paragraph"> Hey there, I’m a lead product designer at <a href="https://mentallyfriendly.com"
                     class="link paragraph-link" target="blank" rel="noopener">
                     Mentally
@@ -144,7 +151,7 @@
 
         <div class="footer-box">
 
-            <footer id="contact-section" class="wide-col">
+            <footer id="contact-section" class="wide-col" data-scroll data-scroll-class="onscreen">
                 <div class="footer-line"></div>
                 <p class="white">Say hello 👋</p>
                 <a class="NoLineLink" href="https://twitter.com/christoph_ellis" target="blank"
@@ -159,6 +166,15 @@
         </div>
         <!-- </div> -->
     </div>
+	<script type="module">
+		// add the "data-scroll" attribute to all the elements in the body
+		// you may need to change where this points, or maybe even add the classes manually ;-)
+		document.querySelectorAll("#page > *").forEach(elem => {
+			elem.setAttribute("data-scroll", "");
+			elem.setAttribute("data-scroll-class", "onscreen");
+		});
+	</script>
+
 </body>
 
 

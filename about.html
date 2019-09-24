@@ -10,12 +10,17 @@
     <link rel='icon' href='favicon.ico' type='image/x-icon' />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Product designer">
+
+    <script type="module">
+        // this package will add the slass on scroll
+       import "https://storage.googleapis.com/pika-cdn-packages-03/scroll-triggers/4.2.0/dist-es2019/scroll-triggers.min.js";
+        </script>
     
 </head>
 
 <body>
     <div id="page">
-        <header class="header-wrapper fade-in">
+        <header class="header-wrapper">
             <div class="smile">
             <span><a href="index.html"><img src="images/smile.svg" width="70" height="70" alt="smilyface"></a>
             </span></div>
@@ -27,34 +32,34 @@
         </header>
 
 
-        <div class="big-text wide-col fade-in">
+        <div class="big-text wide-col">
             <h1>
                 <span>The about page</span>
             </h1>
         </div>
 
         <div class="paragraphSection narrow-col">
-            <p class="wide-max spacer-para fade-in">I spend my work days researching, prototyping, facilitating and designing for <a href="https://mentallyfriendly.com" class="link paragraph-link" target="blank" rel="noopener">
+            <p class="wide-max spacer-para ">I spend my work days researching, prototyping, facilitating and designing for <a href="https://mentallyfriendly.com" class="link paragraph-link" target="blank" rel="noopener">
                     Mentally Friendly.</a> I have done some teaching and speak sometimes in front of a crowd of people.</p>
-            <p class="wide-max spacer-para fade-in">
+            <p class="wide-max spacer-para ">
                 Over the last 10 years I have worked on a wide spectrum of projects across finance, health and government. Recently I have been designing products and services with Commonwealth Bank of Australia, Service NSW and City of Sydney Council.</p>
-            <p class="wide-max spacer-para fade-in">I thrive when working with diverse teams in an ever-changing environment. The best ideas are shaped into reality by collaborating across entire organizations with an empathetic mindset towards stakeholders and advisors.</p>
-            <img src="images/me.jpg" class="small-photo fade-in"
-            alt="Man holding phone with sleep tracker showing">
+            <p class="wide-max spacer-para ">I thrive when working with diverse teams in an ever-changing environment. The best ideas are shaped into reality by collaborating across entire organizations with an empathetic mindset towards stakeholders and advisors.</p>
+   
         </div>
-    
+        <img src="images/me.jpg" class="small-photo fade-in"
+        alt="Man holding phone with sleep tracker showing">
 
     
         
 
 
-        <div class="big-text wide-col fade-in">
+        <div class="big-text wide-col ">
             <h1>
                 Design ethos
             </h1>
         </div>
 
-        <div class="paragraphSection narrow-col fade-in">
+        <div class="paragraphSection narrow-col ">
             <div class="numbers">01</div>
             <div>
                 <h2>Everyone is responsible for the well-being outcome</h2>
@@ -69,7 +74,7 @@
             </p>
         </div>
 
-        <div class="paragraphSection narrow-col fade-in">
+        <div class="paragraphSection narrow-col ">
             <div class="numbers">02</div>
             <div>
                 <h2>Have a learning mindset</h2>
@@ -81,7 +86,7 @@
             </p>
         </div>
 
-        <div class="paragraphSection narrow-col fade-in">
+        <div class="paragraphSection narrow-col ">
             <div class="numbers">03</div>
             <div>
                 <h2>Focus on understanding the problem not offering a solution</h2>
@@ -95,7 +100,7 @@
         </div>
 
 
-        <div class="paragraphSection narrow-col fade-in">
+        <div class="paragraphSection narrow-col ">
             <div class="numbers">04</div>
             <div>
                 <h2>Everyone can, and should mentor others</h2>
@@ -110,7 +115,7 @@
 
 
 
-        <div class="paragraphSection narrow-col fade-in">
+        <div class="paragraphSection narrow-col ">
             <div class="numbers">05</div>
             <div>
                 <h2>Have an action bias</h2>
@@ -140,6 +145,16 @@
                     rel="noopener">Email.</a>
             </footer>
     </div>
+
+	<script type="module">
+		// add the "data-scroll" attribute to all the elements in the body
+		// you may need to change where this points, or maybe even add the classes manually ;-)
+		document.querySelectorAll("#page > *").forEach(elem => {
+			elem.setAttribute("data-scroll", "");
+			elem.setAttribute("data-scroll-class", "onscreen");
+		});
+	</script>
+
 </body>
 
 </html>
