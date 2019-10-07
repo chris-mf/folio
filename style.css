@@ -46,6 +46,8 @@ h1 {
   h1{
     font-size: 8vw;
   }
+
+
 }
 
 
@@ -107,6 +109,20 @@ p {
   margin-block-end: .5em;
 }
 
+.subtext{
+  font-size: 8rem;
+  line-height: 1.1;
+  line-break: auto;
+  font-family: 'GT-America-Extended-Regular';
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+  padding-bottom: 10%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern"1;
+  font-feature-settings: "kern"1;
+  white-space: nowrap;
+}
 
 .white{
 	color: #ffffff;
@@ -259,7 +275,7 @@ header .nolinelink {
 
 
 @keyframes rotateIn {
-  0% { opacity: 0; transform: rotate(4deg); }
+  0% { opacity: 0; transform: rotate(2.5deg); }
 }
 
 [data-scroll] {
@@ -267,7 +283,7 @@ header .nolinelink {
 }
 
 [data-scroll].onscreen {
-  animation: rotateIn 1.1s ease forwards;
+  animation: rotateIn 1s ease forwards;
 }
 
 
@@ -686,6 +702,12 @@ html {
     font-size: 9vw;
   }
 
+  .subtext{
+    font-size: 5rem;
+    padding-top: 5%;
+  }
+
+
   .wordsAndSpeaking {
     margin-top: 15%;
     margin-bottom: 8%;
@@ -700,6 +722,15 @@ html {
   h1 {
     /* background-color: blue; */
     font-size: 9vw;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  .subtext{
+    font-size: 3.2rem;
+    padding-top: 12%;
   }
 
   .project-link{
@@ -788,8 +819,12 @@ html {
   
 
 .paragraphSection {
-  padding-bottom: 2rem;
+  padding-bottom: .5rem;
   /* margin-bottom: 12%; */
+}
+
+.paragraph{
+  margin-bottom: 20px;
 }
 
 .footer-line {
@@ -810,6 +845,11 @@ html {
   h1 {
     /* background-color: green; */
     font-size: 10vw;
+  }
+
+  .subtext{
+    font-size: 2.5rem;
+    padding-top: 10%;
   }
 
   .small-photo{
