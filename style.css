@@ -52,7 +52,7 @@ h1 {
     width: 100%;
     margin-top: 5%;
     padding-left: 10%;
-    padding-right: 10%
+    padding-right: 10%;
     margin-bottom: 5%;
   }
 
@@ -70,9 +70,10 @@ h1 {
   width: 100%;
   margin-top: 5%;
   padding-left: 10%;
-  padding-right: 10%
+  padding-right: 10%;
   margin-bottom: 5%;
 }
+
 }
 
 h2 {
@@ -557,12 +558,14 @@ header {
   text-align: center;
 }
 
+
 .responsible span{
   display: block;
 }
 
 .responsible{
-  margin-top: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 
@@ -571,6 +574,7 @@ header {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
+  margin-bottom: 10%;
 }
 
 
@@ -770,7 +774,7 @@ html {
     width: 100%;
     margin-top: 5%;
     padding-left: 5%;
-    padding-right: 5%
+    padding-right: 5%;
     margin-bottom: 5%;
   }
 
@@ -922,7 +926,7 @@ html {
     width: 100%;
     margin-top: 5%;
     padding-left: 2%;
-    padding-right: 2%
+    padding-right: 2%;
     margin-bottom: 5%;
   }
 
