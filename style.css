@@ -47,6 +47,15 @@ h1 {
     font-size: 8vw;
   }
 
+  .case-study-content-image{
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%
+    margin-bottom: 5%;
+  }
+
 
 }
 
@@ -54,6 +63,15 @@ h1 {
 @media screen and (min-width: 2000px) {
   h1{
     font-size: 6vw;
+}
+
+.case-study-content-image{
+  display: block;
+  width: 100%;
+  margin-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%
+  margin-bottom: 5%;
 }
 }
 
@@ -75,7 +93,19 @@ h2 {
 
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-family: 'GT-America-Extended-Regular';
+  color: #ffffff;
+  margin-block-start: 1em;
+  margin-block-end: .2em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern"1;
+  font-feature-settings: "kern"1;
+}
+
+
+h4{
+  font-size: 1rem;
   font-family: 'GT-America-Extended-Regular';
   color: #ffffff;
   margin-block-start: 1em;
@@ -96,6 +126,10 @@ body {
 
 span {
   margin-bottom: 12px;
+}
+
+.spanafter {
+  margin-bottom: 4px; 
 }
 
 
@@ -528,7 +562,7 @@ header {
 }
 
 .responsible{
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 
@@ -539,13 +573,24 @@ header {
   padding-right: 5%;
 }
 
+
+.case-study-content-image{
+  display: block;
+  width: 100%;
+  margin-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 5%;
+}
+
+
 .case-study-text {
   margin: 0 auto;
-  margin-top: 40px;
-  margin-right: 5%;
+  margin-top: 20px;
+  margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
-  max-width: 600px;
+  max-width: 620px;
   padding-left: 4%;
   padding-right: 4%;
 }
@@ -602,7 +647,7 @@ header {
 
 .paragraph {
   max-width: 600px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 
 .wide-max{
@@ -713,6 +758,15 @@ html {
     margin-bottom: 8%;
   }
 
+  .case-study-content-image{
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%
+    margin-bottom: 5%;
+  }
+
 
 }
 
@@ -722,6 +776,15 @@ html {
   h1 {
     /* background-color: blue; */
     font-size: 9vw;
+  }
+
+  .case-study-content-image{
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 5%;
   }
 
   h2{
@@ -845,6 +908,15 @@ html {
   h1 {
     /* background-color: green; */
     font-size: 10vw;
+  }
+
+  .case-study-content-image{
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%
+    margin-bottom: 5%;
   }
 
   .subtext{
