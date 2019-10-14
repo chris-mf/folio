@@ -133,6 +133,22 @@ span {
   margin-bottom: 4px; 
 }
 
+.wrapping-large-text{
+  font-size: 7vw;
+  line-height: 1.1;
+  line-break: auto;
+  font-family: 'GT-America-Extended-Regular';
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+  padding-bottom: 8%;
+  padding-top: 8%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern"1;
+  font-feature-settings: "kern"1;
+  white-space: wrap;
+}
+
 
 p {
   color: 042082;
