@@ -47,14 +47,14 @@ h1 {
     font-size: 8vw;
   }
 
-  .case-study-content-image{
+  /* .case-study-content-image{
     display: block;
     width: 100%;
     margin-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 5%;
-  }
+  } */
 
 
 }
@@ -65,14 +65,14 @@ h1 {
     font-size: 6vw;
 }
 
-.case-study-content-image{
+/* .case-study-content-image{
   display: block;
   width: 100%;
   margin-top: 5%;
   padding-left: 10%;
   padding-right: 10%;
   margin-bottom: 5%;
-}
+} */
 
 }
 
@@ -326,11 +326,11 @@ header .nolinelink {
 
 
 @keyframes rotateIn {
-  0% { opacity: 0; transform: rotate(2.5deg); }
+  0% { opacity: 0; transform: rotate(2deg); }
 }
 
 [data-scroll] {
-  transform-origin: top left;
+  transform-origin: bottom left;
 }
 
 [data-scroll].onscreen {
@@ -588,20 +588,22 @@ header {
 .case-study-hero-image{
   display: block;
   width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
+  /* padding-left: 5%;
+  padding-right: 5%; */
   margin-bottom: 10%;
 }
 
 
 .case-study-content-image{
   display: block;
-  width: 100%;
-  margin-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 5%;
+  width: 70%;
+  margin: 5% 15%;
 }
+
+.borderedimage {
+  border: 40px solid #21222B;
+}
+
 
 
 .case-study-text {
@@ -611,8 +613,6 @@ header {
   margin-bottom: 0px;
   margin-left: auto;
   max-width: 620px;
-  padding-left: 4%;
-  padding-right: 4%;
 }
 
 
@@ -694,8 +694,20 @@ footer.wide-col {
   display: block;
 }
 
+.iframeclass{
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
-
+.iframewrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 30%;
+}
 
 
 /*------------------------------------*\
@@ -785,14 +797,15 @@ html {
     margin-bottom: 8%;
   }
 
-  .case-study-content-image{
+  /* .case-study-content-image{
     display: block;
     width: 100%;
     margin-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 5%;
-  }
+  } */
+
 
 
 }
@@ -804,7 +817,7 @@ html {
     /* background-color: blue; */
     font-size: 9vw;
   }
-
+/* 
   .case-study-content-image{
     display: block;
     width: 100%;
@@ -812,7 +825,7 @@ html {
     padding-left: 2%;
     padding-right: 2%;
     margin-bottom: 5%;
-  }
+  } */
 
   h2{
     font-size: 2rem;
@@ -937,14 +950,14 @@ html {
     font-size: 10vw;
   }
 
-  .case-study-content-image{
+  /* .case-study-content-image{
     display: block;
     width: 100%;
     margin-top: 5%;
     padding-left: 2%;
     padding-right: 2%;
     margin-bottom: 5%;
-  }
+  } */
 
   .subtext{
     font-size: 2.5rem;
