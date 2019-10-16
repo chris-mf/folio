@@ -47,6 +47,7 @@ h1 {
     font-size: 8vw;
   }
 
+  
   /* .case-study-content-image{
     display: block;
     width: 100%;
@@ -587,7 +588,9 @@ header {
 
 .case-study-hero-image{
   display: block;
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   /* padding-left: 5%;
   padding-right: 5%; */
   margin-bottom: 10%;
@@ -609,9 +612,7 @@ header {
 .case-study-text {
   margin: 0 auto;
   margin-top: 20px;
-  margin-right: auto;
   margin-bottom: 0px;
-  margin-left: auto;
   max-width: 620px;
 }
 
@@ -786,6 +787,11 @@ html {
     font-size: 9vw;
   }
 
+  .case-study-hero-image{
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
   .subtext{
     font-size: 5rem;
     padding-top: 5%;
@@ -817,6 +823,30 @@ html {
     /* background-color: blue; */
     font-size: 9vw;
   }
+
+  .borderedimage {
+    border: 20px solid #21222B;
+  }
+
+  .case-study-hero-image{
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .case-study-text{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .case-study-content-image{
+    width: 90%;
+    margin: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
+
 /* 
   .case-study-content-image{
     display: block;
@@ -949,6 +979,31 @@ html {
     /* background-color: green; */
     font-size: 10vw;
   }
+
+  .borderedimage {
+    border: 10px solid #21222B;
+  }
+
+ 
+
+  .case-study-hero-image{
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .case-study-text{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+.case-study-content-image{
+  width: 90%;
+  margin: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
 
   /* .case-study-content-image{
     display: block;
