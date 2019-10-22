@@ -150,7 +150,7 @@
 	<script type="module">
 		// add the "data-scroll" attribute to all the elements in the body
 		// you may need to change where this points, or maybe even add the classes manually ;-)
-        document.querySelectorAll("#page > *:not(.footer-box)").forEach(elem => {
+        document.querySelectorAll("#page > *:not(.footer-box):not(.header-wrapper)").forEach(elem => {
 			elem.setAttribute("data-scroll", "");
 			elem.setAttribute("data-scroll-class", "onscreen");
 		});
