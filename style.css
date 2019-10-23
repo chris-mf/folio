@@ -472,7 +472,7 @@ a.project-link:visited {
 #page {
   max-width: 1440px;
   margin: 0 auto;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .content-center{
@@ -586,7 +586,7 @@ header {
   
   /* position: fixed; */
 
-} */
+
 
 .work {
   margin-bottom: 8%;
