@@ -9,9 +9,13 @@ html {
 
 
 
-
-
-
+/* trainign wheels  */
+/* 
+*{
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+} */
 
 
 
@@ -472,7 +476,7 @@ a.project-link:visited {
 #page {
   max-width: 1440px;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .content-center{
