@@ -94,11 +94,9 @@ h2 {
 
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: 'GT-America-Extended-Regular';
   color: #ffffff;
-  margin-block-start: 1em;
-  margin-block-end: .2em;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
@@ -706,8 +704,7 @@ header {
 }
 
 .paragraph {
-  max-width: 600px;
-  margin-bottom: 25px;
+  margin-bottom: 1.3rem;
 }
 
 .wide-max{
@@ -823,7 +820,7 @@ html {
 @media (min-width: 769px) and (max-width: 1024px) {
   h1 {
     /* background-color: purple; */
-    font-size: 9vw;
+    font-size: 4.5rem;;
   }
 
   .case-study-hero-image{
@@ -914,7 +911,7 @@ html {
   } */
 
   h2{
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .subtext{
@@ -1013,7 +1010,8 @@ html {
 }
 
 .paragraph{
-  margin-bottom: 20px;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
 
 .footer-line {
@@ -1036,6 +1034,12 @@ html {
     font-size: 10vw;
   }
 
+
+.paragraph{
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
   .smile img {
     width: 55px;
   }
@@ -1045,7 +1049,7 @@ html {
   }
 
   .wrapping-large-text{
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin-top: 5%;
   }
  
@@ -1099,7 +1103,7 @@ html {
 
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .header-wrapper {
