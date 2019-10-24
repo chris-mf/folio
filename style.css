@@ -67,7 +67,7 @@ h1 {
 
 @media screen and (min-width: 2000px) {
   h1{
-    font-size: 7vw;
+    font-size: 9rem;
 }
 
 .wrapping-large-text{
@@ -574,7 +574,7 @@ header {
   align-items: center;
   
   /* position: fixed; */
-  overflow:auto;
+  overflow:hidden;
 
 }
 
