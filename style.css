@@ -620,9 +620,9 @@ header {
 
 .case-study-hero-image{
   display: block;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 100%;
+  /* margin-left: 5%;
+  margin-right: 5%; */
   /* padding-left: 5%;
   padding-right: 5%; */
   margin-bottom: 10%;
@@ -793,6 +793,20 @@ html {
 }
 
 
+@font-face {
+  font-family: 'GTAmerica-ExpandedRegular';
+  src: url('./webfonts/GTAmerica-ExpandedRegular.woff2') format('woff2'), 
+       url('./webfonts/GTAmerica-ExpandedRegular.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'GTAmerica-ExpandedBlack';
+  src: url('./webfonts/GTAmerica-ExpandedBlack.woff2') format('woff2'), 
+       url('./webfonts/GTAmerica-ExpandedBlack.woff') format('woff');
+}
+
+
 .small-photo{
   position: fixed;
   width: 663px;
@@ -825,8 +839,8 @@ html {
   }
 
   .case-study-hero-image{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 1%;
+    padding-left: 1%;
   }
 
   .subtext{
