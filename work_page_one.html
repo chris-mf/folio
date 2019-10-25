@@ -21,13 +21,14 @@
         gtag('config', 'UA-146588141-1');
     </script>
 
+
     
 </head>
 
 
 <body>
     <div id="page">
-        <header class="header-wrapper fade-in">
+        <header class="header-wrapper">
 
             <div class="smile">
                 <span><a href="index.html"><img src="images/smile.svg" width="70" height="70" alt="smilyface"></a>
@@ -41,7 +42,7 @@
         </header>
 
         <!-- <div class="wrapper"> -->
-            <div class="big-text-casestudy wide-col-left fade-in">
+            <div class="big-text-casestudy wide-col-left ">
                 <div class="wrapping-large-text">
                     <span>Sleepsense</span>
                 </div>
@@ -244,7 +245,14 @@
 
     </div>
 
-
+	<script>
+		// add the "data-scroll" attribute to all the elements in the body
+		// you may need to change where this points, or maybe even add the classes manually ;-)
+		document.querySelectorAll("#page > *:not(.footer-box):not(.header-wrapper)").forEach(elem => {
+			elem.setAttribute("data-scroll", "");
+			elem.setAttribute("data-scroll-class", "onscreen");
+		});
+	</script>
 
 
 </body>
