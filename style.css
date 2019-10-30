@@ -263,7 +263,7 @@ p {
 }
 
 
-header .nolinelink {
+header-wraper .nolinelink {
   margin-left: 4rem;
 }
 
@@ -498,8 +498,8 @@ a.project-link:visited {
 }
 
 .wide-col-left{
-  padding-right: 6%;
-  padding-left: 8%;
+  padding-right: 4%;
+  padding-left: 4%;
   max-width: 1400px;
 }
 
@@ -535,18 +535,13 @@ a.project-link:visited {
   margin-top: 5rem;
 }
 
-header {
+header-wraper {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 5%;
   margin-bottom: 8%;
   font-family: 'GT-America-Extended-Regular';
-  max-width: 1440px;
-  padding-left: 6%;
-  padding-right: 6%;
-  position: sticky;
-  z-index: 999;
 }
 
 .paragraphSection {
@@ -563,17 +558,18 @@ header {
 }
 
 .header-wrapper {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  max-width: 1440px;
-  margin: 0px auto;
-  padding-left: 6%;
-  padding-right: 6%;
-  margin-top: 3%;
+  font-family: 'GT-America-Extended-Regular';
+  max-width: 4000px;
+  margin-top: 4rem;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
   align-items: center;
-  
-  /* position: fixed; */
+  padding: 0 50px;
   overflow:hidden;
-
 }
 
 /* header-wrapper {
@@ -812,7 +808,7 @@ html {
   width: 663px;
   height: auto;
   display: block;
-  right: 40px;
+  right: 7%;
   top: 250px;
   z-index: -1;
   padding:15px;
@@ -984,11 +980,11 @@ html {
     padding-right: 5%;
   }
 
-  header .NoLineLink-contact {
+  .header-wrapper .NoLineLink-contact {
     display: none;
   }
 
-  header {
+  .header-wrapper {
     margin-top: 12%;
   }
 
@@ -1126,7 +1122,7 @@ html {
   }
 
 
-  header .NoLineLink-contact {
+  .header-wrapper .NoLineLink-contact {
     display: none;
   }
 
@@ -1150,7 +1146,7 @@ html {
   }
 
 
-  header {
+  header-wraper {
     margin-top: 15%;
     padding-top: 5%;
 
