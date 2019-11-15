@@ -67,7 +67,7 @@ h1 {
 
 @media screen and (min-width: 2000px) {
   h1{
-    font-size: 9rem;
+    font-size: 10rem;
 }
 
 .wrapping-large-text{
@@ -472,7 +472,7 @@ a.project-link:visited {
 \*------------------------------------*/
 
 #page {
-  max-width: 1440px;
+  max-width: 3000px;
   margin: 0 auto;
   /* overflow: hidden; */
 }
@@ -506,7 +506,7 @@ a.project-link:visited {
 .extrawide-col {
   margin: 0 auto;
   margin-top: 0px;
-  margin-right: 5%;
+  margin-right: 10%;
   margin-bottom: 0px;
   margin-left: auto;
   max-width: 600px;
