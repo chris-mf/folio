@@ -34,7 +34,7 @@ h1 {
   font-size: 7vw;
   line-height: 1.1;
   line-break: auto;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'GTAmerica-ExtendedMedium';
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
@@ -760,7 +760,7 @@ html {
   }
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -774,7 +774,7 @@ html {
   font-weight: 400;
   src: url("./webfonts/Inter-Regular.woff2") format("woff2"),
     url("./webfonts/Inter-Regular.woff") format("woff");
-}
+} */
 
 @font-face {
   font-family: 'GT-America-Extended-Regular';
@@ -802,6 +802,17 @@ html {
        url('./webfonts/GTAmerica-ExpandedBlack.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'GTAmerica-ExtendedBold';
+  src: url('./webfonts/GTAmerica-ExtendedBold.woff2') format('woff2'), 
+     url('./webfonts/GTAmerica-ExtendedBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'GTAmerica-ExtendedMedium';
+  src: url('./webfonts/GTAmerica-ExtendedMedium.woff2') format('woff2'), 
+     url('./webfonts/GTAmerica-ExtendedMedium.woff') format('woff');
+}
 
 .small-photo{
   position: fixed;
