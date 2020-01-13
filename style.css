@@ -122,6 +122,10 @@ body {
   font-size: 1rem;
 }
 
+.header-wrapper span {
+  margin-bottom: 0;
+}
+
 
 span {
   margin-bottom: 12px;
@@ -132,7 +136,7 @@ span {
 }
 
 .wrapping-large-text{
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 1.1;
   line-break: auto;
   font-family: 'GT-America-Extended-Regular';
@@ -146,9 +150,7 @@ span {
   font-feature-settings: "kern"1;
 }
 
-.maxwidth{
-  /* max-width: 1800px; */
-}
+
 
 p {
   color: 042082;
@@ -494,6 +496,10 @@ a.project-link:visited {
   padding-right: 4%;
 }
 
+.paramaxwidth{
+  max-width: 560px;
+}
+
 .wide-col{
   padding-left: 4%;
   padding-right: 4%;
@@ -703,7 +709,7 @@ padding-right: 3%;
 }
 
 .wide-max{
-  max-width: 600px;
+  max-width: 580px;
 }
 
 footer.wide-col {
@@ -815,14 +821,17 @@ html {
 
 .small-photo{
   position: fixed;
-  width: 663px;
+  max-width: 760px;
+  /* width: 663px; */
   height: auto;
   display: block;
-  right: 7%;
-  top: 250px;
-  z-index: -1;
+  right: 2%;
+  top: 200px;
+  z-index: -1;  
   padding:15px;
 }
+  /* padding:15px;
+
 
 
 
@@ -894,6 +903,7 @@ html {
   .wrapping-large-text{
     font-size: 3rem;
     margin-top: 1%;
+    margin-bottom: 2rem;
   }
 
   .borderedimage {
@@ -903,6 +913,7 @@ html {
   .case-study-hero-image{
     padding-right: 0%;
     padding-left: 0%;
+    margin-bottom: 30px;
   }
 
   .case-study-text{
@@ -1115,8 +1126,6 @@ html {
     display: inline;
     position: relative;
     margin-right: auto;
-    width: 66.66%;
-
   }
 
 
