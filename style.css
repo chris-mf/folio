@@ -115,7 +115,7 @@ h4{
 }
 
 body {
-  background-color: #06061C;
+  background-color: #1a1a1a;
   padding: 0;
   margin: 0;
   font-family: 'GT-America-Standard-Regular';
@@ -148,7 +148,7 @@ span {
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
-  text-align: center;
+  
 }
 
 
@@ -241,7 +241,7 @@ p {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 2px solid #cccccc26;
   /* margin-top: 250px; */
   margin-bottom:100px;
   max-width: 1680px;
