@@ -33,7 +33,7 @@
 
         <div class="header-wrapper">
 
-                <div class="smile">
+                <div class="smile" id="spinnersmile">
                     <span><a href="index.html"><img src="images/smile.svg"  alt="smilyface"></a>
                     </span></div>
     
@@ -43,6 +43,7 @@
                 </span>
     
             </div>
+
     <div id="page">
        
 
@@ -181,7 +182,16 @@
 			elem.setAttribute("data-scroll", "");
 			elem.setAttribute("data-scroll-class", "onscreen");
 		});
-	</script>
+    </script>
+    
+    <script>
+    var smile = document.getElementById("spinnersmile");
+    
+    window.addEventListener;("scroll", function() {
+    smile.style.transform = "rotate("+window.pageYOffset+"deg)";
+   
+});
+    </script>
 
 </body>
 
