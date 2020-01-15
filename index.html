@@ -34,8 +34,9 @@
         <div class="header-wrapper">
 
                 <div class="smile" id="spinnersmile">
-                    <span><a href="index.html"><img src="images/smile.svg"  alt="smilyface"></a>
-                    </span></div>
+                    <span><a href="index.html" ><img src="images/smile.svg" alt="smilyface"></a>
+                    </span>
+                </div>
     
                 <span>
                     <a class="NoLineLink NoLineLink-about" href="about.html">About</a>
@@ -182,16 +183,39 @@
 			elem.setAttribute("data-scroll", "");
 			elem.setAttribute("data-scroll-class", "onscreen");
 		});
-    </script>
+
+//         ;(function() {
+//     var throttle = function(type, name, obj) {
+//         var obj = obj || window;
+//         var running = false;
+//         var func = function() {
+//             if (running) { return; }
+//             running = true;
+//             requestAnimationFrame(function() {
+//                 obj.dispatchEvent(new CustomEvent(name));
+//                 running = false;
+//             });
+//         };
+//         obj.addEventListener(type, func);
+//     };
+//     throttle ("scroll", "optimizedScroll");
+// })();
+
+// var spinnersmile = document.getElementById("spinnersmile");
+
     
-    <script>
-    var smile = document.getElementById("spinnersmile");
-    
-    window.addEventListener;("scroll", function() {
-    smile.style.transform = "rotate("+window.pageYOffset+"deg)";
-   
+// to use the script *without* anti-jank, set the event to "scroll" and remove the anonymous function.
+
+window.addEventListener("optimizedScroll", function() {
+    spinnersmile.style.transform = "rotate("+window.pageYOffset+"deg)";
+
 });
+
+
+
     </script>
+    
+
 
 </body>
 

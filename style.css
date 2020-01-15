@@ -631,7 +631,9 @@ padding-right: 3%;
 
 
 
-
+.smile{
+  width: 55px;
+}
 
 
 
@@ -646,6 +648,7 @@ padding-right: 3%;
           z-index: 0;
           transform-origin: center;
           width: 55px;
+          position: sticky;
         
 }
 .smile img:hover {
@@ -1035,6 +1038,7 @@ html {
 
   .smile img {
     width: 55px;
+    position: fixed;
   }
 
   .borderedimage {
