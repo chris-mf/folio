@@ -633,8 +633,12 @@ padding-right: 3%;
 
 .smile{
   width: 55px;
+  display: block;
 }
 
+.smile span {
+  display: block;
+}
 
 
 
@@ -1039,7 +1043,11 @@ html {
   .smile img {
     width: 55px;
     position: fixed;
+
   }
+
+
+
 
   .borderedimage {
     border: 10px solid #21222B;
