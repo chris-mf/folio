@@ -636,7 +636,7 @@ padding-right: 3%;
   display: block;
 }
 
-.smile span {
+.smile span, .smile a {
   display: block;
 }
 
@@ -653,6 +653,7 @@ padding-right: 3%;
           transform-origin: center;
           width: 55px;
           position: sticky;
+          display: block;
         
 }
 .smile img:hover {
@@ -674,7 +675,7 @@ padding-right: 3%;
   from {transform: rotate(0deg);}
   to {transform: rotate(360deg);}
 }
-
+  
 .paragraph {
   margin-bottom: 1.3rem;
 }

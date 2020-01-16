@@ -207,7 +207,7 @@ var spinnersmile = document.getElementById("spinnersmile");
 // to use the script *without* anti-jank, set the event to "scroll" and remove the anonymous function.
 
 window.addEventListener("optimizedScroll", function() {
-    spinnersmile.style.transform = "rotate("+window.pageYOffset+"deg)";
+    spinnersmile.style.transform = "rotate("+(window.pageYOffset/5)+"deg)";
 
 });
 
