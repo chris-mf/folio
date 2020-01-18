@@ -737,21 +737,7 @@ html {
   }
 }
 
-/* @font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  src: url("./webfonts/Inter-Regular.woff2") format("woff2"),
-    url("./webfonts/Inter-Regular.woff") format("woff");
-}
 
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  src: url("./webfonts/Inter-Regular.woff2") format("woff2"),
-    url("./webfonts/Inter-Regular.woff") format("woff");
-} */
 
 @font-face {
   font-family: 'GT-America-Extended-Regular';
@@ -825,6 +811,9 @@ html {
     font-size: 4.5rem;;
   }
 
+
+
+
   .case-study-hero-image{
     padding-right: 1%;
     padding-left: 1%;
@@ -871,6 +860,17 @@ html {
 .smile img {
   width: 40px;
 }
+
+
+.smile{
+  width: 40px;
+  display: block;
+}
+
+.smile span, .smile a {
+  display: block;
+}
+
 
   .wrapping-large-text{
     font-size: 3rem;
@@ -949,6 +949,7 @@ html {
     padding-right: 5%;
     margin-top: 20px;
     align-items: center;
+    padding-bottom: 20px;
   }
 
   .flex-container {
@@ -1032,22 +1033,57 @@ html {
 @media (max-width: 320px) {
   h1 {
     /* background-color: green; */
-    font-size: 10vw;
+    font-size: 9vw;
+    line-height: 26px;
+    margin-top: 20px;
+    padding-top: 2rem;
   }
 
 
-.paragraph{
-  font-size: 1.2rem;
-  line-height: 1.6rem;
+
+  
+
+.big-text{
+  margin-left: .5rem;
+
 }
 
+.smile a {
+  display: block;
+}
+
+.smile span, .smile a {
+  display: block;
+}
+
+
+
+.wide-col-left{
+  padding-left: 2%;
+}
+
+.smile{
+  width: 40px;
+  display: block;
+}
+
+
+
+a.NoLineLink {
+  font-size: 1.2rem;
+} 
+
+
   .smile img {
-    width: 55px;
-    position: fixed;
+    width: 40px;
+    display: block;
 
   }
 
-
+  .paragraph{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
 
 
   .borderedimage {
@@ -1075,14 +1111,6 @@ html {
   margin-left: 5%;
 }
 
-  /* .case-study-content-image{
-    display: block;
-    width: 100%;
-    margin-top: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-bottom: 5%;
-  } */
 
   .subtext{
     font-size: 2.5rem;
@@ -1110,11 +1138,23 @@ html {
     font-size: 2rem;
   }
 
+
+
   .header-wrapper {
+    width: 100%;
+    max-width: 1440px;
+    top: 2rem;
     padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 20px;
     align-items: center;
+    padding-bottom: 5px;
   }
 
+
+.NoLineLink-about{
+  padding-right: 0;
+}
 
   .header-wrapper .NoLineLink-contact {
     display: none;
@@ -1178,16 +1218,7 @@ html {
   }
 
 
-  /* .footer-line {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin-top: 20px;
-    margin-bottom:10px;
-    max-width: 1680px;
-  } */
-
+ 
 }
 /*------------------------------------*\
   #END
