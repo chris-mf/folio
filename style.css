@@ -31,10 +31,10 @@ letter-spacing: -0.002em;
 
 
 h1 {
-  font-size: 7vw;
-  line-height: 1.1;
+  font-size: 8vw;
+  line-height: 1;
   line-break: auto;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
@@ -69,7 +69,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
   font-weight: 400;
   color:#ffffff;
   text-rendering: optimizeLegibility;
@@ -87,7 +87,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
   color: #ffffff;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
@@ -97,7 +97,7 @@ h3 {
 
 h4{
   font-size: 1rem;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
   color: #ffffff;
   margin-block-start: 1em;
   margin-block-end: .2em;
@@ -110,7 +110,7 @@ body {
   background-color: #06061C;
   padding: 0;
   margin: 0;
-  font-family: 'GT-America-Standard-Regular';
+  font-family: 'MabryPro-Regular';
   font-size: 1rem;
 }
 
@@ -131,7 +131,7 @@ span {
   font-size: 5rem;
   line-height: 1.1;
   line-break: auto;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
@@ -148,7 +148,7 @@ span {
 p {
   color: 042082;
   font-size: 1.5rem;
-  font-family: 'GT-America-Standard-Regular';
+  font-family: 'MabryPro-Regular';
   color: #ffffff;
   line-height: 1.9rem;
 
@@ -160,7 +160,7 @@ p {
   font-size: 8rem;
   line-height: 1.1;
   line-break: auto;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
@@ -174,14 +174,14 @@ p {
 .white{
 	color: #ffffff;
   padding-bottom: 15px;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
 }
 
 
 .body-copy {
     color: 042082;
     font-size: 1.5rem;
-    font-family: 'GT-America-Standard-Regular';
+    font-family: 'MabryPro-Regular';
     color: #ffffff;
     line-height: 2.2rem;
     margin-block-start: .1em;
@@ -193,7 +193,7 @@ p {
   color: #ffffff;
   font-size: 1.1rem;
   line-height: 1.5rem;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
   margin-block-end: .1rem;
 }
 
@@ -205,7 +205,7 @@ p {
 
 .numbers {
   font-size: 1rem;
-		font-family: 'GT-America-Extended-Regular';
+		font-family: 'MabryPro-Regular';
 		color: #ffffff;
   text-rendering: optimizeLegibility;
 }
@@ -213,7 +213,7 @@ p {
 
 .subhead {
   font-size: 1.5rem;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
   color: #ffffff;
   text-decoration: none;
   border-bottom: none;
@@ -224,7 +224,7 @@ p {
 
 .headertext {
   color: #ffffff;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
   font-size: 1.5rem;
   line-height: 2.6rem;
 }
@@ -234,21 +234,21 @@ p {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 2px solid #cccccc26;
+  /* border-top: 1px solid #cccccc26; */
   /* margin-top: 250px; */
-  margin-bottom:100px;
+  margin-bottom: 80px;
   max-width: 1680px;
 }
 
 
 .NoLineLink-about {
   padding-right: 2rem;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
 }
 
 
 .NoLineLink-contact{
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
 }
 
 
@@ -271,7 +271,7 @@ header-wraper .nolinelink {
 #contact-section a {
   margin-right: 5%;
   line-height: 2.6rem;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'MabryPro-Regular';
 }
 
 * {
@@ -616,7 +616,7 @@ padding-right: 3%;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 0px;
-  max-width: 620px;
+  max-width: 560px;
 }
 
 
@@ -682,13 +682,13 @@ padding-right: 3%;
 }
 
 .wide-max{
-  max-width: 580px;
+  max-width: 560px;
 }
 
 footer.wide-col {
   display: block;
   margin-top: 180px;
-  margin-bottom: 10em;
+  margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
   font-family: 'GT-America-Extended-Regular';
@@ -737,6 +737,15 @@ html {
     font-family: 'Inter var', sans-serif;
   }
 }
+
+@font-face {
+  font-family: 'MabryPro-Regular';
+  src: url('./webfonts/MabryPro-Regular.woff2') format('woff2'),
+      url('./webfonts/MabryPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 
@@ -857,7 +866,7 @@ html {
 @media (min-width: 321px) and (max-width: 768px) {
   h1 {
     /* background-color: blue; */
-    font-size: 9vw;
+    font-size: 10.5vw;
   }
 
   .mob-margin-top {
