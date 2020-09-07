@@ -369,7 +369,7 @@ a {
   font-size: 1.5rem;
   text-decoration: none;
   text-decoration: underline;
-  text-decoration-color: #1201F3;
+  text-decoration-color: #ffffff;
   display: inline-block;
   position: relative;
   z-index: 999;
@@ -381,7 +381,7 @@ a {
 }
 
 a:hover {
-  color:  #1201F3;
+  color:  #9C9CAF;
   transition: 0.1s ease-in-out; 
 }
 
@@ -393,12 +393,12 @@ a.NoLineLink {
 
 a.NoLineLink:link {
   text-decoration: none;
-  color: #9C9CB1;
+  color: #9C9CAF;
 	border-bottom: none;
 }
 
 a.NoLineLink:hover {
-  color: #1201F3;
+  color: #ffffff;
 		transition: color 0.3s ease-in-out 0s;
 }
 
