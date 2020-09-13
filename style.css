@@ -30,7 +30,7 @@ letter-spacing: -0.002em;
 
 
 h1 {
-  font-size: 8vw;
+  font-size: 10vw;
   line-height: 1;
   line-break: auto;
   font-family: 'Untitled Sans';
@@ -48,7 +48,7 @@ h1 {
 
 @media screen and (min-width: 1440px) {
   h1{
-    font-size: 7vw;
+    font-size: 10vw;
     letter-spacing: -0.02em;
   }
 
@@ -202,12 +202,13 @@ p {
 
 
 .foliodescription {
-  color: #ffffff;
+  color: #ADADAD;
   font-size: 1.1rem;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   line-height: 1.5rem;
   font-family: 'Untitled Sans';
   margin-block-end: .1rem;
+  margin-bottom: 0.5rem;
 }
 
 
@@ -285,6 +286,13 @@ header-wraper .nolinelink {
   margin-left: 4rem;
 }
 
+#contact-sectoon{
+  margin-bottom: 40px;
+}
+
+.spacer-bottom{
+  margin-bottom: 40px;
+}
 
 #contact-section a {
   margin-right: 5%;
@@ -299,10 +307,10 @@ header-wraper .nolinelink {
 }
 
 ::selection {
-  background: #1201F3; /* WebKit/Blink Browsers */
+  background: #acacac; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #1201F3; /* Gecko Browsers */
+  background: #acacac; /* Gecko Browsers */
 }
 
 
@@ -438,7 +446,7 @@ a.headertext {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  background-color: rgba(18, 1, 243,0.7); 
+  background-color: rgba(138, 138, 138, 0.81); 
   z-index: 2;
   mix-blend-mode: multiply;
   opacity: 0;
@@ -463,7 +471,7 @@ a.headertext {
 
 
 .project-link:hover .imgsection>.subhead {
-  color: #1201F3;;
+  color: #9C9CAF;;
   text-decoration: none;
 }
 
@@ -521,8 +529,25 @@ a.project-link:visited {
 
 .wide-col-left{
   padding-right: 4%;
-  padding-left: 8%;
+  padding-left: 4%;
   max-width: 1400px;
+}
+
+.wide-col-left-small{
+  /* padding-right: 4%; */
+  padding-left: 4%;
+  max-width: 512px;
+  margin-top: 50px;
+}
+
+.wide-col-left-med {
+
+  padding-left: 4%;
+  max-width: 800px;
+  margin-top: 50px;
+
+
+
 }
 
 .extrawide-col {
@@ -892,8 +917,10 @@ html {
 @media (min-width: 321px) and (max-width: 768px) {
   h1 {
     /* background-color: blue; */
-    font-size: 10.5vw;
+    font-size: 15vw;
   }
+
+
 
   .mob-margin-top {
     margin-top: 6rem;
@@ -1073,6 +1100,19 @@ html {
   margin-bottom:50px;
   max-width: 1680px;
 }
+
+body{
+
+  body {
+    background-color: #050515;
+    padding: 0;
+    margin: 0;
+    font-family: 'Untitled Sans';
+    font-size: .8rem;
+    letter-spacing: -0.02em;
+  }
+
+
 
 }
 
