@@ -57,7 +57,7 @@ h1 {
 
 @media screen and (min-width: 2000px) {
   h1{
-    font-size: 9rem;
+    font-size: 11vw;
     letter-spacing: -0.02em;
 
 
@@ -490,7 +490,7 @@ a.project-link:visited {
 \*------------------------------------*/
 
 #page {
-  max-width: 1800px;
+  /* max-width: 1800px; */
   margin: 0 auto;
   /* overflow: hidden; */
 }
@@ -515,14 +515,14 @@ a.project-link:visited {
 .wide-col{
   padding-left: 4%;
   padding-right: 4%;
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin: 0 auto;
 }
 
 .wide-col-left{
   padding-right: 4%;
   padding-left: 4%;
-  max-width: 1400px;
+  /* max-width: 1400px; */
 }
 
 .wide-col-left-small{
