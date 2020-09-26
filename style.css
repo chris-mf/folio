@@ -52,9 +52,6 @@ h1 {
     letter-spacing: -0.02em;
   }
 
-  
-
-
 }
 
 
@@ -62,6 +59,8 @@ h1 {
   h1{
     font-size: 9rem;
     letter-spacing: -0.02em;
+
+
 }
 
 .wrapping-large-text{
@@ -312,13 +311,6 @@ header-wraper .nolinelink {
 ::-moz-selection {
   background: #acacac; /* Gecko Browsers */
 }
-
-
-
-
-
-
-
 
 
 /*------------------------------------*\
@@ -601,8 +593,6 @@ a.project-link:visited {
   z-index: 99;
   
 }
-
-
 
 
 .work {
