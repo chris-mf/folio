@@ -891,7 +891,8 @@ html {
 @media (min-width: 321px) and (max-width: 768px) {
   h1 {
     /* background-color: blue; */
-    font-size: 8vw;
+    font-size: 9vw;
+    margin-top: 55px;
   }
 
 
