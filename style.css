@@ -64,7 +64,8 @@ h1 {
 }
 
 .wrapping-large-text{
-  font-size: 7rem;;
+  font-size: 7rem;
+  padding: 5%;
   letter-spacing: -0.02em;
 }
 
@@ -135,6 +136,7 @@ span {
 
 .wrapping-large-text{
   font-size: 5rem;
+  padding: 5%;
   letter-spacing: -0.02em;
   line-height: 1.1;
   line-break: auto;
