@@ -898,6 +898,10 @@ html {
   }
 
 
+  .paragraph-link {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
 
   .mob-margin-top {
     margin-top: 6rem;
