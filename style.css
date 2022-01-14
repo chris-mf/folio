@@ -30,7 +30,7 @@ letter-spacing: -0.002em;
 
 
 h1 {
-  font-size: 8vw;
+  font-size: 12vw;
   line-height: 1;
   line-break: auto;
   font-family: 'Untitled Sans';
@@ -42,13 +42,13 @@ h1 {
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
   white-space: nowrap;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
 }
 
 
 @media screen and (min-width: 1440px) {
   h1{
-    font-size: 7vw;
+    font-size: 12vw;
     letter-spacing: -0.02em;
   }
 
@@ -90,7 +90,7 @@ h2 {
 
 
 h3 {
-  font-size: 2rem;
+  font-size: 8vw;
   font-family: 'Untitled Sans';
   color: #ffffff;
   text-rendering: optimizeLegibility;
@@ -361,7 +361,7 @@ header-wraper .nolinelink {
 
 a {
   font-size: 1.5rem;
-  font-family: 'GT-America-Standard-Regular';
+  font-family: 'Untitled Sans';
   color: #ffffff;
 }
 
@@ -378,7 +378,7 @@ a {
 
 
 .paragraph-link {
-  font-family: 'GT-America-Standard-Regular'
+  font-family: 'Untitled Sans'
 }
 
 a:hover {
@@ -510,9 +510,9 @@ a.project-link:visited {
   padding-right: 4%;
 }
 
-/* .paramaxwidth{
-  max-width: 560px;
-} */
+.paramaxwidth{
+  max-width: 620px;
+}
 
 .wide-col{
   padding-left: 4%;
@@ -580,7 +580,7 @@ a.project-link:visited {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'Untitled Sans';
   max-width: 4000px;
   margin-top: 4rem;
   margin-right: auto;
@@ -726,7 +726,7 @@ footer.wide-col {
   margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'GT-America-Extended-Regular';
+  font-family: 'Untitled Sans';
 }
 
 
@@ -781,6 +781,14 @@ html {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'PolySans-Slim';
+  src: url('./webfonts/PolySans-Slim.woff2') format('woff2'),
+      url('./webfonts/PolySans-Slim.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
 
 @font-face {
   font-family: 'Untitled Sans';
@@ -792,43 +800,6 @@ html {
 
 
 
-@font-face {
-  font-family: 'GT-America-Extended-Regular';
-  src: url('./webfonts/GT-America-Extended-Regular.woff2') format('woff2'), 
-       url('./webfonts/GT-America-Extended-Regular.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'GT-America-Standard-Regular';
-  src: url('./webfonts/GT-America-Standard-Regular.woff2') format('woff2'), 
-       url('./webfonts/GT-America-Extended-Regular.woff') format('woff');
-}
-
-
-@font-face {
-  font-family: 'GTAmerica-ExpandedRegular';
-  src: url('./webfonts/GTAmerica-ExpandedRegular.woff2') format('woff2'), 
-       url('./webfonts/GTAmerica-ExpandedRegular.woff') format('woff');
-}
-
-
-@font-face {
-  font-family: 'GTAmerica-ExpandedBlack';
-  src: url('./webfonts/GTAmerica-ExpandedBlack.woff2') format('woff2'), 
-       url('./webfonts/GTAmerica-ExpandedBlack.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'GTAmerica-ExtendedBold';
-  src: url('./webfonts/GTAmerica-ExtendedBold.woff2') format('woff2'), 
-     url('./webfonts/GTAmerica-ExtendedBold.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'GTAmerica-ExtendedMedium';
-  src: url('./webfonts/GTAmerica-ExtendedMedium.woff2') format('woff2'), 
-     url('./webfonts/GTAmerica-ExtendedMedium.woff') format('woff');
-}
 
 .small-photo{
   position: fixed;
@@ -854,11 +825,15 @@ html {
 @media (min-width: 769px) and (max-width: 1024px) {
   h1 {
     /* background-color: purple; */
-    font-size: 4.5rem;;
+    font-size: 12vw;
   }
 
   .NoLineLink-about {
     padding-right: 2rem;
+  }
+
+  h3 {
+    font-size: 8vw;
   }
 
 
@@ -893,8 +868,12 @@ html {
 @media (min-width: 321px) and (max-width: 768px) {
   h1 {
     /* background-color: blue; */
-    font-size: 9vw;
+    font-size: 12vw;
     margin-top: 55px;
+  }
+
+  h3 {
+    font-size: 8vw;
   }
 
 
@@ -1059,7 +1038,7 @@ html {
     margin-bottom: 15%;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'GT-America-Extended-Regular';
+    font-family: 'Untitled Sans';
   }
   
 
@@ -1101,13 +1080,15 @@ body{
 @media (max-width: 320px) {
   h1 {
     /* background-color: green; */
-    font-size: 8vw;
+    font-size: 12vw;
     line-height: 26px;
     margin-top: 20px;
     padding-top: 2rem;
   }
 
-
+  h3 {
+    font-size: 8vw;
+  }
 
   
 
