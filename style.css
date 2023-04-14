@@ -30,10 +30,10 @@ letter-spacing: -0.002em;
 
 
 h1 {
-  font-size: 12vw;
+  font-size: 14vw;
   line-height: 1;
   line-break: auto;
-  font-family: 'Untitled Sans';
+  font-family: 'signifier-thin';
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
@@ -49,6 +49,7 @@ h1 {
 @media screen and (min-width: 1440px) {
   h1{
     font-size: 12vw;
+   
     letter-spacing: -0.02em;
   }
 
@@ -90,13 +91,15 @@ h2 {
 
 
 h3 {
-  font-size: 8vw;
-  font-family: 'Untitled Sans';
+  font-size: 10vw;
+  margin-right: 10%;
+  font-family: 'signifier-thin';
   color: #ffffff;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
   letter-spacing: -0.02em;
+
 }
 
 
@@ -800,6 +803,14 @@ html {
 
 
 
+@font-face {
+  font-family: 'signifier-thin';
+  src: url('./webfonts/signifier-thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 .small-photo{
   position: fixed;
@@ -833,7 +844,8 @@ html {
   }
 
   h3 {
-    font-size: 8vw;
+    font-size: 10vw;
+    margin-right: 10%;
   }
 
 
@@ -868,12 +880,13 @@ html {
 @media (min-width: 321px) and (max-width: 768px) {
   h1 {
     /* background-color: blue; */
-    font-size: 12vw;
+    font-size: 16vw;
     margin-top: 55px;
   }
 
   h3 {
-    font-size: 8vw;
+    font-size: 11vw;
+    margin-right: 1%;
   }
 
 
@@ -1076,8 +1089,8 @@ body{
 @media (max-width: 320px) {
   h1 {
     /* background-color: green; */
-    font-size: 12vw;
-    line-height: 26px;
+    font-size: 16vw;
+    line-height: 44px;
     margin-top: 20px;
     padding-top: 2rem;
   }
